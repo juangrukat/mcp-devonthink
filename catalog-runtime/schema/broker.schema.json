@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tin-canmcp.dev/schema/broker.schema.json",
+  "title": "broker.json",
+  "type": "object",
+  "required": ["version", "strategy"],
+  "properties": {
+    "version": { "type": "integer", "minimum": 1 },
+    "strategy": {
+      "type": "object",
+      "required": [
+        "default_active_groups",
+        "default_active_tiers",
+        "max_tools_per_activation",
+        "escalation_order"
+      ],
+      "properties": {
+        "default_active_groups": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "default_active_tiers": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "max_tools_per_activation": { "type": "integer", "minimum": 1 },
+        "escalation_order": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+      },
+      "additionalProperties": true
+    },
+    "inventory": { "type": "object" },
+    "routing_hints": { "type": "array", "items": { "type": "object" } }
+  },
+  "additionalProperties": true
+}

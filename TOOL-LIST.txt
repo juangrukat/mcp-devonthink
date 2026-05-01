@@ -1,0 +1,82 @@
+As of: April 21, 2026
+
+Read / Search
+- search — Search records with DEVONthink query syntax
+- search_records — Search and return structured record objects
+- getrecordat — Get record at POSIX path
+- getrecordby_uuid — Get record by UUID
+- getrecordwith_uuid — Get record with UUID (alternate)
+- getrecordwith_id — Get record by scripting ID
+- getdatabaseby_uuid — Get database metadata by UUID
+- getdatabasewith_id — Get database with scripting ID
+- getcustommeta_data — Get user-defined metadata
+- exists, existsrecordat, existsrecordwithurl, existsrecordwithpath, existsrecordwithcomment, existsrecordwithcontenthash, existsrecordwithfile — Various existence checks
+- lookuprecordswithurl, lookuprecordswithpath, lookuprecordswithcomment, lookuprecordswithcontenthash, lookuprecordswithfile, lookuprecordswith_tags — Lookup by various keys
+- getcellat — Get sheet cell value
+- gettextof, getrichtext_of — Extract text from HTML/markdown
+- gettitleof, getmetadataof — Extract page metadata
+- getconcordanceof — Get word list from record
+- getlinksof, getembeddedobjectsof, getembeddedsheetsandscriptsof, getembeddedimages_of — Extract embedded content refs
+- getfaviconof, getfeeditemsof, getitemsoffeed — Feed-related
+- getcacheddataforurl — Get cached data from loaded webpage
+- count — Count objects of a class
+- compare — Find similar records
+- classify — Get classification proposals
+- extractkeywordsfrom — Extract keywords
+- getversionsof — Get saved versions
+- getthumbnailof (via createthumbnail, deletethumbnail, update_thumbnail)
+- link_* tools — Link auditing, mapping, scoring, maintenance, etc.
+
+Write / Modify
+- createrecordwith — Create new record
+- create_record — Create record with name/type
+- create_database — Create new database
+- createformattednotefrom, createmarkdownfrom, createpdfdocumentfrom, createwebdocument_from — Create from URL
+- adddownload, addreadinglist, addreminder, addrow, addcustommetadata — Add operations
+- importpath, importtemplate, importattachmentsof — Import
+- index_path — Index file/folder
+- move — Move record(s)
+- moveintodatabase — Move external record in
+- movetoexternal_folder — Move to filesystem
+- duplicate — Duplicate record
+- replicate — Replicate to group
+- merge — Merge records
+- delete — Delete record
+- deleterowat — Delete sheet row
+- deletethumbnail, deleteworkspace — Delete variants
+- update — Update record text
+- setcellat — Set sheet cell
+- updatethumbnail, createthumbnail, compress — Thumbnail/archive
+- bold, italicize, underline, strike, unbold, unitalicize, ununderline, unstrike, plain, reformat — Text formatting
+- imprint, imprintconfiguration, imprinterconfiguration_names — PDF imprinting
+- convert, convertimage, convertfeedtohtml — Conversion
+- ocr — OCR on image/PDF
+- transcribe — Speech transcription
+- summarizetext, summarizecontentsof, summarizeannotationsof, summarizementions_of — Summarization
+- synchronize — Sync with filesystem
+- refresh — Refresh feed record
+- optimize, verify, checkfileintegrity_of — Maintenance
+- saveversionof — Save version before editing
+- restorerecordwith — Restore from version
+- save, save_workspace — Save window/workspace
+- close — Close window/database
+- quit — Quit app
+- displayauthenticationdialog, displaydateeditor, displaygroupselector, displaynameeditor —Dialogs
+- showsearch, showprogressindicator, hideprogressindicator, stepprogress_indicator — UI
+- startdownloads, stopdownloads — Download queue
+- performsmartrule — Run smart rule
+- log_message — Log to panel
+- paste_clipboard — Paste as new record
+- scrolltovisible — Scroll to text
+
+Admin
+- opendatabase, opentabfor, openwindow_for — Open windows/tabs
+- loadworkspace, saveworkspace — Workspace management
+- link_* (maintenance, auditing, repair) — Link maintenance tools
+
+Unsupported operations I found:
+- delete — Buggy AppleScript generation (doubles "record" keyword)
+- move — Buggy AppleScript generation
+- Database-level operations (close, compress) — Limited by UUID/object handling
+
+The link tools (linkauditrecord, linkmapneighborhood, linksuggestrelated, linkfindorphans, linkmaintenancepass, linkrepairlinks, etc.) are quite powerful for graph analysis of your knowledge base.

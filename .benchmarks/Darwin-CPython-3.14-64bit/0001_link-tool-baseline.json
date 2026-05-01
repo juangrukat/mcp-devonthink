@@ -1,0 +1,148 @@
+{
+    "machine_info": {
+        "node": "Kats-MacBook-Pro.local",
+        "processor": "arm",
+        "machine": "arm64",
+        "python_compiler": "Clang 16.0.0 (clang-1600.0.26.6)",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.14.2",
+        "python_version": "3.14.2",
+        "python_build": [
+            "v3.14.2:df793163d58",
+            "Dec  5 2025 12:18:06"
+        ],
+        "release": "25.3.0",
+        "system": "Darwin",
+        "cpu": {
+            "python_version": "3.14.2.final.0 (64 bit)",
+            "cpuinfo_version": [
+                9,
+                0,
+                0
+            ],
+            "cpuinfo_version_string": "9.0.0",
+            "arch": "ARM_8",
+            "bits": 64,
+            "count": 11,
+            "arch_string_raw": "arm64",
+            "brand_raw": "Apple M3 Pro"
+        }
+    },
+    "commit_info": {
+        "id": "4fd3ff04f91314d00af73b431736e855fe07a130",
+        "time": "2026-04-23T17:48:41+08:00",
+        "author_time": "2026-04-23T17:48:41+08:00",
+        "dirty": true,
+        "project": "tin-canMCP",
+        "branch": "main"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_find_orphans_perf",
+            "fullname": "tests/benchmarks/test_link_tool_perf.py::test_find_orphans_perf",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.38934354099910706,
+                "max": 0.4426914579817094,
+                "mean": 0.4208904332015663,
+                "stddev": 0.020111201486530006,
+                "rounds": 5,
+                "median": 0.4227052500064019,
+                "iqr": 0.02459229148371378,
+                "q1": 0.41035019801347516,
+                "q3": 0.43494248949718894,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.38934354099910706,
+                "hd15iqr": 0.4426914579817094,
+                "ops": 2.3759152527971463,
+                "total": 2.1044521660078317,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_detect_bridges_perf",
+            "fullname": "tests/benchmarks/test_link_tool_perf.py::test_detect_bridges_perf",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.4255361660034396,
+                "max": 0.4443420000025071,
+                "mean": 0.43115320820361375,
+                "stddev": 0.0077678707030413435,
+                "rounds": 5,
+                "median": 0.42811991699272767,
+                "iqr": 0.008992115486762486,
+                "q1": 0.425901697264635,
+                "q3": 0.4348938127513975,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.4255361660034396,
+                "hd15iqr": 0.4443420000025071,
+                "ops": 2.319361148132165,
+                "total": 2.155766041018069,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_audit_folder_perf",
+            "fullname": "tests/benchmarks/test_link_tool_perf.py::test_audit_folder_perf",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 3.599120541999582,
+                "max": 3.6593756249931175,
+                "mean": 3.6337438667949753,
+                "stddev": 0.02172277621327897,
+                "rounds": 5,
+                "median": 3.6360074169933796,
+                "iqr": 0.017184458738483954,
+                "q1": 3.6265506977506448,
+                "q3": 3.6437351564891287,
+                "iqr_outliers": 1,
+                "stddev_outliers": 2,
+                "outliers": "2;1",
+                "ld15iqr": 3.635694083000999,
+                "hd15iqr": 3.6593756249931175,
+                "ops": 0.2751982629094926,
+                "total": 18.168719333974877,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2026-04-23T19:26:57.922973+00:00",
+    "version": "5.2.3"
+}

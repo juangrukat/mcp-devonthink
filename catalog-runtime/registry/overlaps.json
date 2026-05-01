@@ -1,0 +1,833 @@
+[
+  {
+    "family": "devonthink-add",
+    "canonical_tool": "devonthink-add-custom-meta-data",
+    "members": [
+      "add-custom-meta-data",
+      "add-download",
+      "add-reading-list",
+      "add-reminder",
+      "add-row",
+      "devonthink-add-custom-meta-data",
+      "devonthink-add-download",
+      "devonthink-add-reading-list",
+      "devonthink-add-reminder",
+      "devonthink-add-row"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-add."
+  },
+  {
+    "family": "devonthink-annotation-note",
+    "canonical_tool": "devonthink-create-annotation-note",
+    "members": [
+      "devonthink-create-annotation-note",
+      "devonthink-read-annotation-note"
+    ],
+    "note": "Overlap family for devonthink-annotation-note."
+  },
+  {
+    "family": "devonthink-annotation-summary",
+    "canonical_tool": "devonthink-summarize-annotations",
+    "members": [
+      "devonthink-summarize-annotations"
+    ],
+    "note": "Overlap family for devonthink-annotation-summary."
+  },
+  {
+    "family": "devonthink-bold",
+    "canonical_tool": "devonthink-bold",
+    "members": [
+      "bold",
+      "devonthink-bold"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-bold."
+  },
+  {
+    "family": "devonthink-check",
+    "canonical_tool": "devonthink-check-file-integrity-of",
+    "members": [
+      "check-file-integrity-of",
+      "devonthink-check-file-integrity-of"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-check."
+  },
+  {
+    "family": "devonthink-classify",
+    "canonical_tool": "devonthink-classify",
+    "members": [
+      "classify",
+      "devonthink-classify"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-classify."
+  },
+  {
+    "family": "devonthink-close",
+    "canonical_tool": "devonthink-close",
+    "members": [
+      "close",
+      "devonthink-close"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-close."
+  },
+  {
+    "family": "devonthink-compare",
+    "canonical_tool": "devonthink-compare",
+    "members": [
+      "compare",
+      "devonthink-compare"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-compare."
+  },
+  {
+    "family": "devonthink-compress",
+    "canonical_tool": "devonthink-compress",
+    "members": [
+      "compress",
+      "devonthink-compress"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-compress."
+  },
+  {
+    "family": "devonthink-convert",
+    "canonical_tool": "devonthink-convert",
+    "members": [
+      "convert",
+      "convert-feed-to-html",
+      "convert-image",
+      "devonthink-convert",
+      "devonthink-convert-feed-to-html",
+      "devonthink-convert-image"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-convert."
+  },
+  {
+    "family": "devonthink-count",
+    "canonical_tool": "devonthink-count",
+    "members": [
+      "count",
+      "devonthink-count"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-count."
+  },
+  {
+    "family": "devonthink-create",
+    "canonical_tool": "devonthink-create-database",
+    "members": [
+      "create-database",
+      "create-formatted-note-from",
+      "create-location",
+      "create-markdown-from",
+      "create-pdf-document-from",
+      "create-record",
+      "create-record-with",
+      "create-thumbnail",
+      "create-web-document-from",
+      "devonthink-add-record",
+      "devonthink-create-database",
+      "devonthink-create-formatted-note-from",
+      "devonthink-create-location",
+      "devonthink-create-markdown-from",
+      "devonthink-create-pdf-document-from",
+      "devonthink-create-record",
+      "devonthink-create-record-with",
+      "devonthink-create-thumbnail",
+      "devonthink-create-web-document-from"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-create."
+  },
+  {
+    "family": "devonthink-database",
+    "canonical_tool": "devonthink-close-database",
+    "members": [
+      "devonthink-close-database",
+      "devonthink-list-databases",
+      "devonthink-open-database",
+      "devonthink-sync-database",
+      "devonthink-verify-database"
+    ],
+    "note": "Overlap family for devonthink-database."
+  },
+  {
+    "family": "devonthink-delete",
+    "canonical_tool": "devonthink-delete",
+    "members": [
+      "delete",
+      "delete-row-at",
+      "delete-thumbnail",
+      "delete-workspace",
+      "devonthink-delete",
+      "devonthink-delete-row-at",
+      "devonthink-delete-thumbnail",
+      "devonthink-delete-workspace"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-delete."
+  },
+  {
+    "family": "devonthink-display",
+    "canonical_tool": "devonthink-display-authentication-dialog",
+    "members": [
+      "devonthink-display-authentication-dialog",
+      "devonthink-display-date-editor",
+      "devonthink-display-group-selector",
+      "devonthink-display-name-editor",
+      "display-authentication-dialog",
+      "display-date-editor",
+      "display-group-selector",
+      "display-name-editor"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-display."
+  },
+  {
+    "family": "devonthink-do",
+    "canonical_tool": "devonthink-do-javascript",
+    "members": [
+      "devonthink-do-javascript",
+      "do-javascript"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-do."
+  },
+  {
+    "family": "devonthink-download",
+    "canonical_tool": "devonthink-download-json-from",
+    "members": [
+      "devonthink-download-json-from",
+      "devonthink-download-markup-from",
+      "devonthink-download-url",
+      "download-json-from",
+      "download-markup-from",
+      "download-url"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-download."
+  },
+  {
+    "family": "devonthink-duplicate",
+    "canonical_tool": "devonthink-duplicate",
+    "members": [
+      "devonthink-duplicate",
+      "devonthink-duplicate-record",
+      "duplicate"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-duplicate."
+  },
+  {
+    "family": "devonthink-exists",
+    "canonical_tool": "devonthink-exists",
+    "members": [
+      "devonthink-exists",
+      "devonthink-exists-record-at",
+      "devonthink-exists-record-with-comment",
+      "devonthink-exists-record-with-content-hash",
+      "devonthink-exists-record-with-file",
+      "devonthink-exists-record-with-path",
+      "devonthink-exists-record-with-url",
+      "exists",
+      "exists-record-at",
+      "exists-record-with-comment",
+      "exists-record-with-content-hash",
+      "exists-record-with-file",
+      "exists-record-with-path",
+      "exists-record-with-url"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-exists."
+  },
+  {
+    "family": "devonthink-export",
+    "canonical_tool": "devonthink-export",
+    "members": [
+      "devonthink-export",
+      "devonthink-export-tags-of",
+      "devonthink-export-website",
+      "export",
+      "export-tags-of",
+      "export-website"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-export."
+  },
+  {
+    "family": "devonthink-extract",
+    "canonical_tool": "devonthink-extract-keywords-from",
+    "members": [
+      "devonthink-extract-keywords-from",
+      "extract-keywords-from"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-extract."
+  },
+  {
+    "family": "devonthink-get",
+    "canonical_tool": "devonthink-get-cached-data-for-url",
+    "members": [
+      "devonthink-get-cached-data-for-url",
+      "devonthink-get-cell-at",
+      "devonthink-get-concordance-of",
+      "devonthink-get-custom-meta-data",
+      "devonthink-get-database",
+      "devonthink-get-database-by-uuid",
+      "devonthink-get-database-incoming-group",
+      "devonthink-get-database-with-id",
+      "devonthink-get-database-with-uuid",
+      "devonthink-get-embedded-images-of",
+      "devonthink-get-embedded-objects-of",
+      "devonthink-get-embedded-sheets-and-scripts-of",
+      "devonthink-get-favicon-of",
+      "devonthink-get-feed-items-of",
+      "devonthink-get-frames-of",
+      "devonthink-get-items-of-feed",
+      "devonthink-get-links-of",
+      "devonthink-get-metadata-of",
+      "devonthink-get-record",
+      "devonthink-get-record-at",
+      "devonthink-get-record-by-uuid",
+      "devonthink-get-record-with-id",
+      "devonthink-get-record-with-uuid",
+      "devonthink-get-rich-text-of",
+      "devonthink-get-text-of",
+      "devonthink-get-title-of",
+      "devonthink-get-versions-of",
+      "devonthink-list-group-children",
+      "devonthink-read-record-text",
+      "get-cached-data-for-url",
+      "get-cell-at",
+      "get-concordance-of",
+      "get-custom-meta-data",
+      "get-database-by-uuid",
+      "get-database-with-id",
+      "get-database-with-uuid",
+      "get-embedded-images-of",
+      "get-embedded-objects-of",
+      "get-embedded-sheets-and-scripts-of",
+      "get-favicon-of",
+      "get-feed-items-of",
+      "get-frames-of",
+      "get-items-of-feed",
+      "get-links-of",
+      "get-metadata-of",
+      "get-record-at",
+      "get-record-by-uuid",
+      "get-record-with-id",
+      "get-record-with-uuid",
+      "get-rich-text-of",
+      "get-text-of",
+      "get-title-of",
+      "get-versions-of"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-get."
+  },
+  {
+    "family": "devonthink-hide",
+    "canonical_tool": "devonthink-hide-progress-indicator",
+    "members": [
+      "devonthink-hide-progress-indicator",
+      "hide-progress-indicator"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-hide."
+  },
+  {
+    "family": "devonthink-import",
+    "canonical_tool": "devonthink-import-attachments-of",
+    "members": [
+      "devonthink-import-attachments-of",
+      "devonthink-import-path",
+      "devonthink-import-template",
+      "import-attachments-of",
+      "import-path",
+      "import-template"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-import."
+  },
+  {
+    "family": "devonthink-imprint",
+    "canonical_tool": "devonthink-imprint",
+    "members": [
+      "devonthink-imprint",
+      "devonthink-imprint-configuration",
+      "imprint",
+      "imprint-configuration"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-imprint."
+  },
+  {
+    "family": "devonthink-imprinter",
+    "canonical_tool": "devonthink-imprinter-configuration-names",
+    "members": [
+      "devonthink-imprinter-configuration-names",
+      "imprinter-configuration-names"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-imprinter."
+  },
+  {
+    "family": "devonthink-index",
+    "canonical_tool": "devonthink-index-path",
+    "members": [
+      "devonthink-index-path",
+      "index-path"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-index."
+  },
+  {
+    "family": "devonthink-italicize",
+    "canonical_tool": "devonthink-italicize",
+    "members": [
+      "devonthink-italicize",
+      "italicize"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-italicize."
+  },
+  {
+    "family": "devonthink-link-intelligence",
+    "canonical_tool": "devonthink-link-resolve",
+    "members": [
+      "devonthink-link-audit-folder",
+      "devonthink-link-audit-record",
+      "devonthink-link-build-hub",
+      "devonthink-link-check-reciprocal",
+      "devonthink-link-compare-snapshots",
+      "devonthink-link-detect-bridges",
+      "devonthink-link-enrich-metadata",
+      "devonthink-link-find-orphans",
+      "devonthink-link-maintenance-pass",
+      "devonthink-link-map-neighborhood",
+      "devonthink-link-prune-snapshots",
+      "devonthink-link-repair-links",
+      "devonthink-link-resolve",
+      "devonthink-link-score",
+      "devonthink-link-suggest-related",
+      "devonthink-link-traverse-folder",
+      "link-audit-folder",
+      "link-audit-record",
+      "link-build-hub",
+      "link-check-reciprocal",
+      "link-compare-snapshots",
+      "link-detect-bridges",
+      "link-enrich-metadata",
+      "link-find-orphans",
+      "link-maintenance-pass",
+      "link-map-neighborhood",
+      "link-prune-snapshots",
+      "link-repair-links",
+      "link-resolve",
+      "link-score",
+      "link-suggest-related",
+      "link-traverse-folder"
+    ],
+    "note": "Layered DEVONthink link-intelligence tools (inspect/analyze/act) sharing a versioned signal contract."
+  },
+  {
+    "family": "devonthink-load",
+    "canonical_tool": "devonthink-load-workspace",
+    "members": [
+      "devonthink-load-workspace",
+      "load-workspace"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-load."
+  },
+  {
+    "family": "devonthink-log",
+    "canonical_tool": "devonthink-log-message",
+    "members": [
+      "devonthink-log-message",
+      "log-message"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-log."
+  },
+  {
+    "family": "devonthink-lookup",
+    "canonical_tool": "devonthink-lookup-records-with-comment",
+    "members": [
+      "devonthink-lookup-records-with-comment",
+      "devonthink-lookup-records-with-content-hash",
+      "devonthink-lookup-records-with-file",
+      "devonthink-lookup-records-with-path",
+      "devonthink-lookup-records-with-tags",
+      "devonthink-lookup-records-with-url",
+      "lookup-records-with-comment",
+      "lookup-records-with-content-hash",
+      "lookup-records-with-file",
+      "lookup-records-with-path",
+      "lookup-records-with-tags",
+      "lookup-records-with-url"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-lookup."
+  },
+  {
+    "family": "devonthink-make",
+    "canonical_tool": "devonthink-make",
+    "members": [
+      "devonthink-make",
+      "make"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-make."
+  },
+  {
+    "family": "devonthink-merge",
+    "canonical_tool": "devonthink-merge",
+    "members": [
+      "devonthink-merge",
+      "merge"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-merge."
+  },
+  {
+    "family": "devonthink-metadata",
+    "canonical_tool": "devonthink-batch-set-label",
+    "members": [
+      "devonthink-batch-set-label",
+      "devonthink-batch-update-record-metadata",
+      "devonthink-set-label",
+      "devonthink-set-rating"
+    ],
+    "note": "Overlap family for devonthink-metadata."
+  },
+  {
+    "family": "devonthink-move",
+    "canonical_tool": "devonthink-move",
+    "members": [
+      "devonthink-move",
+      "devonthink-move-into-database",
+      "devonthink-move-to-external-folder",
+      "move",
+      "move-into-database",
+      "move-to-external-folder"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-move."
+  },
+  {
+    "family": "devonthink-ocr",
+    "canonical_tool": "devonthink-ocr",
+    "members": [
+      "devonthink-ocr",
+      "ocr"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-ocr."
+  },
+  {
+    "family": "devonthink-open",
+    "canonical_tool": "devonthink-open-database",
+    "members": [
+      "devonthink-open-database",
+      "devonthink-open-tab-for",
+      "devonthink-open-window-for",
+      "open-database",
+      "open-tab-for",
+      "open-window-for"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-open."
+  },
+  {
+    "family": "devonthink-optimize",
+    "canonical_tool": "devonthink-optimize",
+    "members": [
+      "devonthink-optimize",
+      "optimize"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-optimize."
+  },
+  {
+    "family": "devonthink-paste",
+    "canonical_tool": "devonthink-paste-clipboard",
+    "members": [
+      "devonthink-paste-clipboard",
+      "paste-clipboard"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-paste."
+  },
+  {
+    "family": "devonthink-perform",
+    "canonical_tool": "devonthink-perform-smart-rule",
+    "members": [
+      "devonthink-perform-smart-rule",
+      "perform-smart-rule"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-perform."
+  },
+  {
+    "family": "devonthink-plain",
+    "canonical_tool": "devonthink-plain",
+    "members": [
+      "devonthink-plain",
+      "plain"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-plain."
+  },
+  {
+    "family": "devonthink-quit",
+    "canonical_tool": "devonthink-quit",
+    "members": [
+      "devonthink-quit",
+      "quit"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-quit."
+  },
+  {
+    "family": "devonthink-reformat",
+    "canonical_tool": "devonthink-reformat",
+    "members": [
+      "devonthink-reformat",
+      "reformat"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-reformat."
+  },
+  {
+    "family": "devonthink-refresh",
+    "canonical_tool": "devonthink-refresh",
+    "members": [
+      "devonthink-refresh",
+      "refresh"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-refresh."
+  },
+  {
+    "family": "devonthink-reminder",
+    "canonical_tool": "devonthink-delete-reminder",
+    "members": [
+      "devonthink-delete-reminder",
+      "devonthink-list-reminders",
+      "devonthink-update-reminder"
+    ],
+    "note": "Overlap family for devonthink-reminder."
+  },
+  {
+    "family": "devonthink-replicate",
+    "canonical_tool": "devonthink-replicate",
+    "members": [
+      "devonthink-replicate",
+      "replicate"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-replicate."
+  },
+  {
+    "family": "devonthink-restore",
+    "canonical_tool": "devonthink-restore-record-with",
+    "members": [
+      "devonthink-restore-record-with",
+      "restore-record-with"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-restore."
+  },
+  {
+    "family": "devonthink-richtext",
+    "canonical_tool": "devonthink-create-rtf",
+    "members": [
+      "devonthink-create-rtf",
+      "devonthink-create-rtfd",
+      "devonthink-read-rtf",
+      "devonthink-read-rtfd",
+      "devonthink-update-rtf",
+      "devonthink-update-rtfd"
+    ],
+    "note": "Overlap family for devonthink-richtext."
+  },
+  {
+    "family": "devonthink-save",
+    "canonical_tool": "devonthink-save",
+    "members": [
+      "devonthink-save",
+      "devonthink-save-version-of",
+      "devonthink-save-workspace",
+      "save",
+      "save-version-of",
+      "save-workspace"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-save."
+  },
+  {
+    "family": "devonthink-script",
+    "canonical_tool": "devonthink-create-script",
+    "members": [
+      "devonthink-create-script",
+      "devonthink-delete-script",
+      "devonthink-list-scripts",
+      "devonthink-read-script",
+      "devonthink-run-applescript",
+      "devonthink-run-script",
+      "devonthink-update-script"
+    ],
+    "note": "Overlap family for devonthink-script."
+  },
+  {
+    "family": "devonthink-scroll",
+    "canonical_tool": "devonthink-scroll-to-visible",
+    "members": [
+      "devonthink-scroll-to-visible",
+      "scroll-to-visible"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-scroll."
+  },
+  {
+    "family": "devonthink-search",
+    "canonical_tool": "devonthink-search",
+    "members": [
+      "devonthink-filter-records",
+      "devonthink-find-records",
+      "devonthink-search",
+      "devonthink-search-media-records",
+      "devonthink-search-records",
+      "search",
+      "search-records"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-search."
+  },
+  {
+    "family": "devonthink-set",
+    "canonical_tool": "devonthink-set-cell-at",
+    "members": [
+      "devonthink-set-cell-at",
+      "set-cell-at"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-set."
+  },
+  {
+    "family": "devonthink-show",
+    "canonical_tool": "devonthink-show-progress-indicator",
+    "members": [
+      "devonthink-show-progress-indicator",
+      "devonthink-show-search",
+      "show-progress-indicator",
+      "show-search"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-show."
+  },
+  {
+    "family": "devonthink-smart",
+    "canonical_tool": "devonthink-apply-smart-rule",
+    "members": [
+      "devonthink-apply-smart-rule",
+      "devonthink-create-smart-group",
+      "devonthink-list-smart-rules"
+    ],
+    "note": "Overlap family for devonthink-smart."
+  },
+  {
+    "family": "devonthink-start",
+    "canonical_tool": "devonthink-start-downloads",
+    "members": [
+      "devonthink-start-downloads",
+      "start-downloads"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-start."
+  },
+  {
+    "family": "devonthink-step",
+    "canonical_tool": "devonthink-step-progress-indicator",
+    "members": [
+      "devonthink-step-progress-indicator",
+      "step-progress-indicator"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-step."
+  },
+  {
+    "family": "devonthink-stop",
+    "canonical_tool": "devonthink-stop-downloads",
+    "members": [
+      "devonthink-stop-downloads",
+      "stop-downloads"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-stop."
+  },
+  {
+    "family": "devonthink-strike",
+    "canonical_tool": "devonthink-strike",
+    "members": [
+      "devonthink-strike",
+      "strike"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-strike."
+  },
+  {
+    "family": "devonthink-summarize",
+    "canonical_tool": "devonthink-summarize-annotations-of",
+    "members": [
+      "devonthink-summarize-annotations-of",
+      "devonthink-summarize-contents-of",
+      "devonthink-summarize-mentions-of",
+      "devonthink-summarize-text",
+      "summarize-annotations-of",
+      "summarize-contents-of",
+      "summarize-mentions-of",
+      "summarize-text"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-summarize."
+  },
+  {
+    "family": "devonthink-synchronize",
+    "canonical_tool": "devonthink-synchronize",
+    "members": [
+      "devonthink-synchronize",
+      "synchronize"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-synchronize."
+  },
+  {
+    "family": "devonthink-transcribe",
+    "canonical_tool": "devonthink-transcribe",
+    "members": [
+      "devonthink-transcribe",
+      "transcribe"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-transcribe."
+  },
+  {
+    "family": "devonthink-unbold",
+    "canonical_tool": "devonthink-unbold",
+    "members": [
+      "devonthink-unbold",
+      "unbold"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-unbold."
+  },
+  {
+    "family": "devonthink-underline",
+    "canonical_tool": "devonthink-underline",
+    "members": [
+      "devonthink-underline",
+      "underline"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-underline."
+  },
+  {
+    "family": "devonthink-unitalicize",
+    "canonical_tool": "devonthink-unitalicize",
+    "members": [
+      "devonthink-unitalicize",
+      "unitalicize"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-unitalicize."
+  },
+  {
+    "family": "devonthink-unstrike",
+    "canonical_tool": "devonthink-unstrike",
+    "members": [
+      "devonthink-unstrike",
+      "unstrike"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-unstrike."
+  },
+  {
+    "family": "devonthink-ununderline",
+    "canonical_tool": "devonthink-ununderline",
+    "members": [
+      "devonthink-ununderline",
+      "ununderline"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-ununderline."
+  },
+  {
+    "family": "devonthink-update",
+    "canonical_tool": "devonthink-update",
+    "members": [
+      "devonthink-update",
+      "devonthink-update-thumbnail",
+      "update",
+      "update-thumbnail"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-update."
+  },
+  {
+    "family": "devonthink-verify",
+    "canonical_tool": "devonthink-verify",
+    "members": [
+      "devonthink-verify",
+      "verify"
+    ],
+    "note": "DEVONthink overlap family grouped by command verb for devonthink-verify."
+  }
+]

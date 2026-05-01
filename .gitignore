@@ -1,0 +1,45 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+build/
+dist/
+.eggs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage*
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Runtime / local state
+*.log
+*.pid
+*.tmp
+*.swp
+*.swo
+*.orig
+
+# Local tools / scratch
+.claude/settings.local.json
+.serena/
+error/
+/error/
+clients/generated/
+.devonthink-mcp/osascript-runs/
+snapshots/

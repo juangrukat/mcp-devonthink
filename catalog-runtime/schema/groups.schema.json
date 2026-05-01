@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tin-canmcp.dev/schema/groups.schema.json",
+  "title": "groups.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "name",
+      "description",
+      "activation_size",
+      "counts",
+      "canonical_tools",
+      "advanced_tools",
+      "internal_tools"
+    ],
+    "properties": {
+      "name": { "type": "string", "minLength": 1 },
+      "description": { "type": "string", "minLength": 1 },
+      "activation_size": { "type": "integer", "minimum": 1 },
+      "counts": {
+        "type": "object",
+        "required": ["total", "canonical", "advanced", "internal"],
+        "properties": {
+          "total": { "type": "integer", "minimum": 0 },
+          "canonical": { "type": "integer", "minimum": 0 },
+          "advanced": { "type": "integer", "minimum": 0 },
+          "internal": { "type": "integer", "minimum": 0 }
+        },
+        "additionalProperties": false
+      },
+      "canonical_tools": { "type": "array", "items": { "type": "string" } },
+      "advanced_tools": { "type": "array", "items": { "type": "string" } },
+      "internal_tools": { "type": "array", "items": { "type": "string" } }
+    },
+    "additionalProperties": true
+  }
+}

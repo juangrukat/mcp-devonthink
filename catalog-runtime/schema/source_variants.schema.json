@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tin-canmcp.dev/schema/source_variants.schema.json",
+  "title": "source_variants.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "preferred_source_path", "variant_source_path", "reason"],
+    "properties": {
+      "name": { "type": "string", "minLength": 1 },
+      "preferred_source_path": { "type": "string", "minLength": 1 },
+      "variant_source_path": { "type": "string", "minLength": 1 },
+      "reason": { "type": "string", "minLength": 1 }
+    },
+    "additionalProperties": false
+  }
+}

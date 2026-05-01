@@ -1,0 +1,2503 @@
+{
+  "summary": {
+    "report_count": 145,
+    "live_read_only_count": 14,
+    "static_synthesis_count": 130,
+    "skipped_risky_count": 1,
+    "failure_count": 0,
+    "slowest": [
+      {
+        "tool": "devonthink-list-group-children",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 621.06,
+        "observability": null,
+        "error": null
+      },
+      {
+        "tool": "devonthink-link-audit-folder",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 572.9,
+        "observability": {
+          "executed_at_utc": "2026-04-23T19:46:32.098959+00:00",
+          "duration_ms": 572,
+          "warnings": [],
+          "stats": {
+            "weakly_connected_count": 4,
+            "bulk_snapshot_count": 4,
+            "search_calls_made": 0,
+            "search_calls_degraded": 0,
+            "missing_value_coercions": 32
+          }
+        },
+        "error": null
+      },
+      {
+        "tool": "devonthink-link-detect-bridges",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 543.16,
+        "observability": {
+          "executed_at_utc": "2026-04-23T19:46:34.164306+00:00",
+          "duration_ms": 543,
+          "warnings": [],
+          "stats": {
+            "bridge_count": 0,
+            "candidate_count": 0,
+            "bulk_snapshot_count": 35
+          }
+        },
+        "error": null
+      },
+      {
+        "tool": "devonthink-link-find-orphans",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 526.9,
+        "observability": {
+          "executed_at_utc": "2026-04-23T19:46:32.977535+00:00",
+          "duration_ms": 526,
+          "warnings": [],
+          "stats": {
+            "strong_orphan_count": 35,
+            "near_orphan_count": 0,
+            "bulk_snapshot_count": 35,
+            "search_calls_made": 0,
+            "search_calls_degraded": 0,
+            "missing_value_coercions": 70
+          }
+        },
+        "error": null
+      },
+      {
+        "tool": "devonthink-link-suggest-related",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 506.66,
+        "observability": {
+          "executed_at_utc": "2026-04-23T19:46:33.484241+00:00",
+          "duration_ms": 506,
+          "warnings": [
+            "Title-context signal skipped due to sufficient authoritative candidates."
+          ],
+          "stats": {
+            "candidate_count": 4,
+            "suggestion_count": 4,
+            "title_search_skipped": 1,
+            "search_calls_made": 1,
+            "search_calls_degraded": 0,
+            "missing_value_coercions": 0
+          }
+        },
+        "error": null
+      },
+      {
+        "tool": "devonthink-link-resolve",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 356.8,
+        "observability": {
+          "executed_at_utc": "2026-04-23T19:46:31.337402+00:00",
+          "duration_ms": 356,
+          "warnings": [],
+          "stats": {}
+        },
+        "error": null
+      },
+      {
+        "tool": "devonthink-link-map-neighborhood",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 351.67,
+        "observability": {
+          "executed_at_utc": "2026-04-23T19:46:32.450659+00:00",
+          "duration_ms": 351,
+          "warnings": [],
+          "stats": {
+            "node_count": 1,
+            "edge_count": 0,
+            "lowest_signal_tier": "authoritative",
+            "search_calls_made": 0,
+            "search_calls_degraded": 0,
+            "missing_value_coercions": 0
+          }
+        },
+        "error": null
+      },
+      {
+        "tool": "devonthink-get-record-by-uuid",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 315.71,
+        "observability": null,
+        "error": null
+      },
+      {
+        "tool": "devonthink-search-records",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 229.78,
+        "observability": null,
+        "error": null
+      },
+      {
+        "tool": "devonthink-link-audit-record",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 188.43,
+        "observability": {
+          "executed_at_utc": "2026-04-23T19:46:31.526024+00:00",
+          "duration_ms": 188,
+          "warnings": [],
+          "stats": {
+            "risk_flag_count": 4,
+            "search_calls_made": 0,
+            "search_calls_degraded": 0,
+            "missing_value_coercions": 0
+          }
+        },
+        "error": null
+      },
+      {
+        "tool": "devonthink-link-check-reciprocal",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 177.66,
+        "observability": {
+          "executed_at_utc": "2026-04-23T19:46:34.342033+00:00",
+          "duration_ms": 177,
+          "warnings": [],
+          "stats": {
+            "search_calls_made": 0,
+            "search_calls_degraded": 0,
+            "missing_value_coercions": 0
+          }
+        },
+        "error": null
+      },
+      {
+        "tool": "devonthink-get-database-by-uuid",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 137.92,
+        "observability": null,
+        "error": null
+      },
+      {
+        "tool": "devonthink-link-score",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 136.91,
+        "observability": {
+          "executed_at_utc": "2026-04-23T19:46:33.621178+00:00",
+          "duration_ms": 136,
+          "warnings": [],
+          "stats": {
+            "scored_count": 2,
+            "search_calls_made": 0,
+            "search_calls_degraded": 0,
+            "missing_value_coercions": 0
+          }
+        },
+        "error": null
+      },
+      {
+        "tool": "devonthink-get-database-incoming-group",
+        "mode": "live_read_only",
+        "ok": true,
+        "duration_ms": 127.6,
+        "observability": null,
+        "error": null
+      },
+      {
+        "tool": "devonthink-close",
+        "mode": "static_synthesis",
+        "ok": true,
+        "duration_ms": 0.03,
+        "error": null
+      },
+      {
+        "tool": "devonthink-save",
+        "mode": "static_synthesis",
+        "ok": true,
+        "duration_ms": 0.01,
+        "error": null
+      },
+      {
+        "tool": "devonthink-count",
+        "mode": "static_synthesis",
+        "ok": true,
+        "duration_ms": 0.01,
+        "error": null
+      },
+      {
+        "tool": "devonthink-make",
+        "mode": "static_synthesis",
+        "ok": true,
+        "duration_ms": 0.01,
+        "error": null
+      },
+      {
+        "tool": "devonthink-add-custom-meta-data",
+        "mode": "static_synthesis",
+        "ok": true,
+        "duration_ms": 0.01,
+        "error": null
+      },
+      {
+        "tool": "devonthink-set-cell-at",
+        "mode": "static_synthesis",
+        "ok": true,
+        "duration_ms": 0.01,
+        "error": null
+      }
+    ]
+  },
+  "reports": [
+    {
+      "tool": "devonthink-get-database-by-uuid",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 137.92,
+      "observability": null,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-database-incoming-group",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 127.6,
+      "observability": null,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-record-by-uuid",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 315.71,
+      "observability": null,
+      "error": null
+    },
+    {
+      "tool": "devonthink-list-group-children",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 621.06,
+      "observability": null,
+      "error": null
+    },
+    {
+      "tool": "devonthink-search-records",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 229.78,
+      "observability": null,
+      "error": null
+    },
+    {
+      "tool": "devonthink-link-resolve",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 356.8,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:31.337402+00:00",
+        "duration_ms": 356,
+        "warnings": [],
+        "stats": {}
+      },
+      "error": null
+    },
+    {
+      "tool": "devonthink-link-audit-record",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 188.43,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:31.526024+00:00",
+        "duration_ms": 188,
+        "warnings": [],
+        "stats": {
+          "risk_flag_count": 4,
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 0
+        }
+      },
+      "error": null
+    },
+    {
+      "tool": "devonthink-link-audit-folder",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 572.9,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:32.098959+00:00",
+        "duration_ms": 572,
+        "warnings": [],
+        "stats": {
+          "weakly_connected_count": 4,
+          "bulk_snapshot_count": 4,
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 32
+        }
+      },
+      "error": null
+    },
+    {
+      "tool": "devonthink-link-map-neighborhood",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 351.67,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:32.450659+00:00",
+        "duration_ms": 351,
+        "warnings": [],
+        "stats": {
+          "node_count": 1,
+          "edge_count": 0,
+          "lowest_signal_tier": "authoritative",
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 0
+        }
+      },
+      "error": null
+    },
+    {
+      "tool": "devonthink-link-find-orphans",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 526.9,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:32.977535+00:00",
+        "duration_ms": 526,
+        "warnings": [],
+        "stats": {
+          "strong_orphan_count": 35,
+          "near_orphan_count": 0,
+          "bulk_snapshot_count": 35,
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 70
+        }
+      },
+      "error": null
+    },
+    {
+      "tool": "devonthink-link-suggest-related",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 506.66,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:33.484241+00:00",
+        "duration_ms": 506,
+        "warnings": [
+          "Title-context signal skipped due to sufficient authoritative candidates."
+        ],
+        "stats": {
+          "candidate_count": 4,
+          "suggestion_count": 4,
+          "title_search_skipped": 1,
+          "search_calls_made": 1,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 0
+        }
+      },
+      "error": null
+    },
+    {
+      "tool": "devonthink-link-score",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 136.91,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:33.621178+00:00",
+        "duration_ms": 136,
+        "warnings": [],
+        "stats": {
+          "scored_count": 2,
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 0
+        }
+      },
+      "error": null
+    },
+    {
+      "tool": "devonthink-link-detect-bridges",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 543.16,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:34.164306+00:00",
+        "duration_ms": 543,
+        "warnings": [],
+        "stats": {
+          "bridge_count": 0,
+          "candidate_count": 0,
+          "bulk_snapshot_count": 35
+        }
+      },
+      "error": null
+    },
+    {
+      "tool": "devonthink-link-check-reciprocal",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 177.66,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:34.342033+00:00",
+        "duration_ms": 177,
+        "warnings": [],
+        "stats": {
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 0
+        }
+      },
+      "error": null
+    },
+    {
+      "tool": "devonthink-close",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.03,
+      "error": null
+    },
+    {
+      "tool": "devonthink-save",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    {
+      "tool": "devonthink-quit",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-count",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    {
+      "tool": "devonthink-exists",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-make",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    {
+      "tool": "devonthink-bold",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-italicize",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-plain",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-reformat",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-scroll-to-visible",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-strike",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-unbold",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-underline",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-unitalicize",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-unstrike",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-ununderline",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-add-custom-meta-data",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    {
+      "tool": "devonthink-add-download",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-add-reading-list",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-add-reminder",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-add-row",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-check-file-integrity-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-classify",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-compare",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-compress",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-convert",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-convert-feed-to-html",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-create-database",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-create-formatted-note-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-create-location",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-create-markdown-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-create-pdf-document-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-create-record-with",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-create-thumbnail",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-create-web-document-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-delete",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-delete-row-at",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-delete-thumbnail",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-delete-workspace",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-do-javascript",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-download-json-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-download-markup-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-download-url",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-display-authentication-dialog",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-display-date-editor",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-display-group-selector",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-display-name-editor",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-duplicate",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-exists-record-at",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-exists-record-with-comment",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-exists-record-with-content-hash",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-exists-record-with-file",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-exists-record-with-path",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-exists-record-with-url",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-export",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-export-tags-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-export-website",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-extract-keywords-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-cached-data-for-url",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-cell-at",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-concordance-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-custom-meta-data",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-database-with-id",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-database-with-uuid",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-embedded-images-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-embedded-objects-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-embedded-sheets-and-scripts-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-favicon-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-feed-items-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-frames-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-items-of-feed",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-links-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-metadata-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-record-at",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-record-with-id",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-record-with-uuid",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-rich-text-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-text-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-title-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-get-versions-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-hide-progress-indicator",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-import-attachments-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-import-path",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-import-template",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-index-path",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-load-workspace",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-log-message",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-lookup-records-with-comment",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-lookup-records-with-content-hash",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-lookup-records-with-file",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-lookup-records-with-path",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-lookup-records-with-tags",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-lookup-records-with-url",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-merge",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-move",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-move-into-database",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-move-to-external-folder",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-open-database",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-open-tab-for",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-open-window-for",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-optimize",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-paste-clipboard",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-perform-smart-rule",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-refresh",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-replicate",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-restore-record-with",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-save-version-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-save-workspace",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-search",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-set-cell-at",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    {
+      "tool": "devonthink-show-progress-indicator",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-show-search",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-start-downloads",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-step-progress-indicator",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-stop-downloads",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-summarize-annotations-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-summarize-contents-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-summarize-mentions-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-summarize-text",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-synchronize",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-transcribe",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-update",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-update-thumbnail",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-verify",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-convert-image",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-ocr",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-imprinter-configuration-names",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-imprint-configuration",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool": "devonthink-imprint",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    {
+      "tool": "devonthink-create-record",
+      "mode": "skipped_risky",
+      "ok": true,
+      "duration_ms": 0,
+      "error": "Skipped live mutation; validate through dedicated disposable-fixture tests."
+    }
+  ],
+  "by_tool": {
+    "devonthink-get-database-by-uuid": {
+      "tool": "devonthink-get-database-by-uuid",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 137.92,
+      "observability": null,
+      "error": null
+    },
+    "devonthink-get-database-incoming-group": {
+      "tool": "devonthink-get-database-incoming-group",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 127.6,
+      "observability": null,
+      "error": null
+    },
+    "devonthink-get-record-by-uuid": {
+      "tool": "devonthink-get-record-by-uuid",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 315.71,
+      "observability": null,
+      "error": null
+    },
+    "devonthink-list-group-children": {
+      "tool": "devonthink-list-group-children",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 621.06,
+      "observability": null,
+      "error": null
+    },
+    "devonthink-search-records": {
+      "tool": "devonthink-search-records",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 229.78,
+      "observability": null,
+      "error": null
+    },
+    "devonthink-link-resolve": {
+      "tool": "devonthink-link-resolve",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 356.8,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:31.337402+00:00",
+        "duration_ms": 356,
+        "warnings": [],
+        "stats": {}
+      },
+      "error": null
+    },
+    "devonthink-link-audit-record": {
+      "tool": "devonthink-link-audit-record",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 188.43,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:31.526024+00:00",
+        "duration_ms": 188,
+        "warnings": [],
+        "stats": {
+          "risk_flag_count": 4,
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 0
+        }
+      },
+      "error": null
+    },
+    "devonthink-link-audit-folder": {
+      "tool": "devonthink-link-audit-folder",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 572.9,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:32.098959+00:00",
+        "duration_ms": 572,
+        "warnings": [],
+        "stats": {
+          "weakly_connected_count": 4,
+          "bulk_snapshot_count": 4,
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 32
+        }
+      },
+      "error": null
+    },
+    "devonthink-link-map-neighborhood": {
+      "tool": "devonthink-link-map-neighborhood",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 351.67,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:32.450659+00:00",
+        "duration_ms": 351,
+        "warnings": [],
+        "stats": {
+          "node_count": 1,
+          "edge_count": 0,
+          "lowest_signal_tier": "authoritative",
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 0
+        }
+      },
+      "error": null
+    },
+    "devonthink-link-find-orphans": {
+      "tool": "devonthink-link-find-orphans",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 526.9,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:32.977535+00:00",
+        "duration_ms": 526,
+        "warnings": [],
+        "stats": {
+          "strong_orphan_count": 35,
+          "near_orphan_count": 0,
+          "bulk_snapshot_count": 35,
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 70
+        }
+      },
+      "error": null
+    },
+    "devonthink-link-suggest-related": {
+      "tool": "devonthink-link-suggest-related",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 506.66,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:33.484241+00:00",
+        "duration_ms": 506,
+        "warnings": [
+          "Title-context signal skipped due to sufficient authoritative candidates."
+        ],
+        "stats": {
+          "candidate_count": 4,
+          "suggestion_count": 4,
+          "title_search_skipped": 1,
+          "search_calls_made": 1,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 0
+        }
+      },
+      "error": null
+    },
+    "devonthink-link-score": {
+      "tool": "devonthink-link-score",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 136.91,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:33.621178+00:00",
+        "duration_ms": 136,
+        "warnings": [],
+        "stats": {
+          "scored_count": 2,
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 0
+        }
+      },
+      "error": null
+    },
+    "devonthink-link-detect-bridges": {
+      "tool": "devonthink-link-detect-bridges",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 543.16,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:34.164306+00:00",
+        "duration_ms": 543,
+        "warnings": [],
+        "stats": {
+          "bridge_count": 0,
+          "candidate_count": 0,
+          "bulk_snapshot_count": 35
+        }
+      },
+      "error": null
+    },
+    "devonthink-link-check-reciprocal": {
+      "tool": "devonthink-link-check-reciprocal",
+      "mode": "live_read_only",
+      "ok": true,
+      "duration_ms": 177.66,
+      "observability": {
+        "executed_at_utc": "2026-04-23T19:46:34.342033+00:00",
+        "duration_ms": 177,
+        "warnings": [],
+        "stats": {
+          "search_calls_made": 0,
+          "search_calls_degraded": 0,
+          "missing_value_coercions": 0
+        }
+      },
+      "error": null
+    },
+    "devonthink-close": {
+      "tool": "devonthink-close",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.03,
+      "error": null
+    },
+    "devonthink-save": {
+      "tool": "devonthink-save",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    "devonthink-quit": {
+      "tool": "devonthink-quit",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-count": {
+      "tool": "devonthink-count",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    "devonthink-exists": {
+      "tool": "devonthink-exists",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-make": {
+      "tool": "devonthink-make",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    "devonthink-bold": {
+      "tool": "devonthink-bold",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-italicize": {
+      "tool": "devonthink-italicize",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-plain": {
+      "tool": "devonthink-plain",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-reformat": {
+      "tool": "devonthink-reformat",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-scroll-to-visible": {
+      "tool": "devonthink-scroll-to-visible",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-strike": {
+      "tool": "devonthink-strike",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-unbold": {
+      "tool": "devonthink-unbold",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-underline": {
+      "tool": "devonthink-underline",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-unitalicize": {
+      "tool": "devonthink-unitalicize",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-unstrike": {
+      "tool": "devonthink-unstrike",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-ununderline": {
+      "tool": "devonthink-ununderline",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-add-custom-meta-data": {
+      "tool": "devonthink-add-custom-meta-data",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    "devonthink-add-download": {
+      "tool": "devonthink-add-download",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-add-reading-list": {
+      "tool": "devonthink-add-reading-list",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-add-reminder": {
+      "tool": "devonthink-add-reminder",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-add-row": {
+      "tool": "devonthink-add-row",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-check-file-integrity-of": {
+      "tool": "devonthink-check-file-integrity-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-classify": {
+      "tool": "devonthink-classify",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-compare": {
+      "tool": "devonthink-compare",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-compress": {
+      "tool": "devonthink-compress",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-convert": {
+      "tool": "devonthink-convert",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-convert-feed-to-html": {
+      "tool": "devonthink-convert-feed-to-html",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-create-database": {
+      "tool": "devonthink-create-database",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-create-formatted-note-from": {
+      "tool": "devonthink-create-formatted-note-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-create-location": {
+      "tool": "devonthink-create-location",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-create-markdown-from": {
+      "tool": "devonthink-create-markdown-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-create-pdf-document-from": {
+      "tool": "devonthink-create-pdf-document-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-create-record-with": {
+      "tool": "devonthink-create-record-with",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-create-thumbnail": {
+      "tool": "devonthink-create-thumbnail",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-create-web-document-from": {
+      "tool": "devonthink-create-web-document-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-delete": {
+      "tool": "devonthink-delete",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-delete-row-at": {
+      "tool": "devonthink-delete-row-at",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-delete-thumbnail": {
+      "tool": "devonthink-delete-thumbnail",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-delete-workspace": {
+      "tool": "devonthink-delete-workspace",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-do-javascript": {
+      "tool": "devonthink-do-javascript",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-download-json-from": {
+      "tool": "devonthink-download-json-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-download-markup-from": {
+      "tool": "devonthink-download-markup-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-download-url": {
+      "tool": "devonthink-download-url",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-display-authentication-dialog": {
+      "tool": "devonthink-display-authentication-dialog",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-display-date-editor": {
+      "tool": "devonthink-display-date-editor",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-display-group-selector": {
+      "tool": "devonthink-display-group-selector",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-display-name-editor": {
+      "tool": "devonthink-display-name-editor",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-duplicate": {
+      "tool": "devonthink-duplicate",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-exists-record-at": {
+      "tool": "devonthink-exists-record-at",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-exists-record-with-comment": {
+      "tool": "devonthink-exists-record-with-comment",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-exists-record-with-content-hash": {
+      "tool": "devonthink-exists-record-with-content-hash",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-exists-record-with-file": {
+      "tool": "devonthink-exists-record-with-file",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-exists-record-with-path": {
+      "tool": "devonthink-exists-record-with-path",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-exists-record-with-url": {
+      "tool": "devonthink-exists-record-with-url",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-export": {
+      "tool": "devonthink-export",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-export-tags-of": {
+      "tool": "devonthink-export-tags-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-export-website": {
+      "tool": "devonthink-export-website",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-extract-keywords-from": {
+      "tool": "devonthink-extract-keywords-from",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-cached-data-for-url": {
+      "tool": "devonthink-get-cached-data-for-url",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-cell-at": {
+      "tool": "devonthink-get-cell-at",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-concordance-of": {
+      "tool": "devonthink-get-concordance-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-custom-meta-data": {
+      "tool": "devonthink-get-custom-meta-data",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-database-with-id": {
+      "tool": "devonthink-get-database-with-id",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-database-with-uuid": {
+      "tool": "devonthink-get-database-with-uuid",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-embedded-images-of": {
+      "tool": "devonthink-get-embedded-images-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-embedded-objects-of": {
+      "tool": "devonthink-get-embedded-objects-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-embedded-sheets-and-scripts-of": {
+      "tool": "devonthink-get-embedded-sheets-and-scripts-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-favicon-of": {
+      "tool": "devonthink-get-favicon-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-feed-items-of": {
+      "tool": "devonthink-get-feed-items-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-frames-of": {
+      "tool": "devonthink-get-frames-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-items-of-feed": {
+      "tool": "devonthink-get-items-of-feed",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-links-of": {
+      "tool": "devonthink-get-links-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-metadata-of": {
+      "tool": "devonthink-get-metadata-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-record-at": {
+      "tool": "devonthink-get-record-at",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-record-with-id": {
+      "tool": "devonthink-get-record-with-id",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-record-with-uuid": {
+      "tool": "devonthink-get-record-with-uuid",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-rich-text-of": {
+      "tool": "devonthink-get-rich-text-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-text-of": {
+      "tool": "devonthink-get-text-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-title-of": {
+      "tool": "devonthink-get-title-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-get-versions-of": {
+      "tool": "devonthink-get-versions-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-hide-progress-indicator": {
+      "tool": "devonthink-hide-progress-indicator",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-import-attachments-of": {
+      "tool": "devonthink-import-attachments-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-import-path": {
+      "tool": "devonthink-import-path",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-import-template": {
+      "tool": "devonthink-import-template",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-index-path": {
+      "tool": "devonthink-index-path",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-load-workspace": {
+      "tool": "devonthink-load-workspace",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-log-message": {
+      "tool": "devonthink-log-message",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-lookup-records-with-comment": {
+      "tool": "devonthink-lookup-records-with-comment",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-lookup-records-with-content-hash": {
+      "tool": "devonthink-lookup-records-with-content-hash",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-lookup-records-with-file": {
+      "tool": "devonthink-lookup-records-with-file",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-lookup-records-with-path": {
+      "tool": "devonthink-lookup-records-with-path",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-lookup-records-with-tags": {
+      "tool": "devonthink-lookup-records-with-tags",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-lookup-records-with-url": {
+      "tool": "devonthink-lookup-records-with-url",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-merge": {
+      "tool": "devonthink-merge",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-move": {
+      "tool": "devonthink-move",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-move-into-database": {
+      "tool": "devonthink-move-into-database",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-move-to-external-folder": {
+      "tool": "devonthink-move-to-external-folder",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-open-database": {
+      "tool": "devonthink-open-database",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-open-tab-for": {
+      "tool": "devonthink-open-tab-for",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-open-window-for": {
+      "tool": "devonthink-open-window-for",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-optimize": {
+      "tool": "devonthink-optimize",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-paste-clipboard": {
+      "tool": "devonthink-paste-clipboard",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-perform-smart-rule": {
+      "tool": "devonthink-perform-smart-rule",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-refresh": {
+      "tool": "devonthink-refresh",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-replicate": {
+      "tool": "devonthink-replicate",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-restore-record-with": {
+      "tool": "devonthink-restore-record-with",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-save-version-of": {
+      "tool": "devonthink-save-version-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-save-workspace": {
+      "tool": "devonthink-save-workspace",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-search": {
+      "tool": "devonthink-search",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-set-cell-at": {
+      "tool": "devonthink-set-cell-at",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    "devonthink-show-progress-indicator": {
+      "tool": "devonthink-show-progress-indicator",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-show-search": {
+      "tool": "devonthink-show-search",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-start-downloads": {
+      "tool": "devonthink-start-downloads",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-step-progress-indicator": {
+      "tool": "devonthink-step-progress-indicator",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-stop-downloads": {
+      "tool": "devonthink-stop-downloads",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-summarize-annotations-of": {
+      "tool": "devonthink-summarize-annotations-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-summarize-contents-of": {
+      "tool": "devonthink-summarize-contents-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-summarize-mentions-of": {
+      "tool": "devonthink-summarize-mentions-of",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-summarize-text": {
+      "tool": "devonthink-summarize-text",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-synchronize": {
+      "tool": "devonthink-synchronize",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-transcribe": {
+      "tool": "devonthink-transcribe",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-update": {
+      "tool": "devonthink-update",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-update-thumbnail": {
+      "tool": "devonthink-update-thumbnail",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-verify": {
+      "tool": "devonthink-verify",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-convert-image": {
+      "tool": "devonthink-convert-image",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-ocr": {
+      "tool": "devonthink-ocr",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-imprinter-configuration-names": {
+      "tool": "devonthink-imprinter-configuration-names",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-imprint-configuration": {
+      "tool": "devonthink-imprint-configuration",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.0,
+      "error": null
+    },
+    "devonthink-imprint": {
+      "tool": "devonthink-imprint",
+      "mode": "static_synthesis",
+      "ok": true,
+      "duration_ms": 0.01,
+      "error": null
+    },
+    "devonthink-create-record": {
+      "tool": "devonthink-create-record",
+      "mode": "skipped_risky",
+      "ok": true,
+      "duration_ms": 0,
+      "error": "Skipped live mutation; validate through dedicated disposable-fixture tests."
+    }
+  }
+}

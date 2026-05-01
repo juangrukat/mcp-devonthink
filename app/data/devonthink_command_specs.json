@@ -1,0 +1,3647 @@
+[
+  {
+    "suite_name": "Standard Suite",
+    "command_name": "close",
+    "command_description": "Close a window, tab or database.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The window(s), tab(s) or database(s) to close.",
+      "type_name": "specifier"
+    },
+    "parameters": [
+      {
+        "name": "saving",
+        "label": "saving",
+        "optional": true,
+        "description": "Should changes be saved before closing?",
+        "type_name": "save options"
+      }
+    ],
+    "result_description": null,
+    "tool_name": "devonthink-close",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Standard Suite",
+    "command_name": "save",
+    "command_description": "Save a window or tab.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The window(s) or tab(s) to save.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-save",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Standard Suite",
+    "command_name": "quit",
+    "command_description": "Quit the application.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "saving",
+        "label": "saving",
+        "optional": true,
+        "description": "Should changes be saved before quitting?",
+        "type_name": "save options"
+      }
+    ],
+    "result_description": null,
+    "tool_name": "devonthink-quit",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Standard Suite",
+    "command_name": "count",
+    "command_description": "Return the number of elements of a particular class within an object.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The objects to be counted.",
+      "type_name": "specifier"
+    },
+    "parameters": [
+      {
+        "name": "each",
+        "label": "each",
+        "optional": true,
+        "description": "The class of objects to be counted.",
+        "type_name": "type"
+      }
+    ],
+    "result_description": "The count.",
+    "tool_name": "devonthink-count",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "Standard Suite",
+    "command_name": "exists",
+    "command_description": "Verify that an object exists.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The object(s) to check.",
+      "type_name": "any"
+    },
+    "parameters": [],
+    "result_description": "Did the object(s) exist?",
+    "tool_name": "devonthink-exists",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "Standard Suite",
+    "command_name": "make",
+    "command_description": "Create a new object.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "new",
+        "label": "new",
+        "optional": false,
+        "description": "The class of the new object.",
+        "type_name": "type"
+      },
+      {
+        "name": "at",
+        "label": "at",
+        "optional": true,
+        "description": "The location at which to insert the object.",
+        "type_name": "location specifier"
+      },
+      {
+        "name": "with data",
+        "label": "with data",
+        "optional": true,
+        "description": "The initial contents of the object.",
+        "type_name": "any"
+      },
+      {
+        "name": "with properties",
+        "label": "with properties",
+        "optional": true,
+        "description": "The initial values for properties of the object.",
+        "type_name": "dictionary"
+      }
+    ],
+    "result_description": "The new object.",
+    "tool_name": "devonthink-make",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Extended Text Suite",
+    "command_name": "bold",
+    "command_description": "Bold some text",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-bold",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Extended Text Suite",
+    "command_name": "italicize",
+    "command_description": "Italicize some text",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-italicize",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Extended Text Suite",
+    "command_name": "plain",
+    "command_description": "Make some text plain",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-plain",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Extended Text Suite",
+    "command_name": "reformat",
+    "command_description": "Reformat some text. Similar to WordService's Reformat service.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-reformat",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Extended Text Suite",
+    "command_name": "scroll to visible",
+    "command_description": "Scroll to and animate some text.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-scroll-to-visible",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Extended Text Suite",
+    "command_name": "strike",
+    "command_description": "Strike some text",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-strike",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Extended Text Suite",
+    "command_name": "unbold",
+    "command_description": "Unbold some text",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-unbold",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Extended Text Suite",
+    "command_name": "underline",
+    "command_description": "Underline some text",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-underline",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Extended Text Suite",
+    "command_name": "unitalicize",
+    "command_description": "Unitalicize some text",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-unitalicize",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Extended Text Suite",
+    "command_name": "unstrike",
+    "command_description": "Unstrike some text",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-unstrike",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Extended Text Suite",
+    "command_name": "ununderline",
+    "command_description": "Ununderline some text",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text.",
+      "type_name": "specifier"
+    },
+    "parameters": [],
+    "result_description": null,
+    "tool_name": "devonthink-ununderline",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "add custom meta data",
+    "command_description": "Add user-defined metadata to a record or updates already existing metadata of a record. Setting a value for an unknown key automatically adds a definition to Settings > Data.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The value to add.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "for",
+        "label": "for",
+        "optional": false,
+        "description": "The key for the user-defined value.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The record.",
+        "type_name": null
+      },
+      {
+        "name": "as",
+        "label": "as",
+        "optional": true,
+        "description": "The desired format. Either 'text' (default), 'richtext', 'string', 'uuid', 'url', 'crosslink', 'date', 'real', 'int', 'bool', 'set', 'countries' or 'languages'.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if adding was successful, false if not.",
+    "tool_name": "devonthink-add-custom-meta-data",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "add download",
+    "command_description": "Add a URL to the download manager.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The URL to add.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "automatic",
+        "label": "automatic",
+        "optional": true,
+        "description": "Automatic or user (default) download.",
+        "type_name": null
+      },
+      {
+        "name": "password",
+        "label": "password",
+        "optional": true,
+        "description": "The password for protected websites.",
+        "type_name": null
+      },
+      {
+        "name": "referrer",
+        "label": "referrer",
+        "optional": true,
+        "description": "The HTTP referrer.",
+        "type_name": null
+      },
+      {
+        "name": "user",
+        "label": "user",
+        "optional": true,
+        "description": "The user name for protected websites.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if adding was successful, false if not.",
+    "tool_name": "devonthink-add-download",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "add reading list",
+    "command_description": "Add record or URL to reading list.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": true,
+        "description": "The record. Only documents are supported.",
+        "type_name": null
+      },
+      {
+        "name": "URL",
+        "label": "URL",
+        "optional": true,
+        "description": "The URL of the webpage.",
+        "type_name": null
+      },
+      {
+        "name": "title",
+        "label": "title",
+        "optional": true,
+        "description": "The title of the webpage.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if adding was successful, false if not.",
+    "tool_name": "devonthink-add-reading-list",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "add reminder",
+    "command_description": "Add a new reminder to a record.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The properties of the reminder. At least 'schedule' and 'due date' are required.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The record.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The added reminder.",
+    "tool_name": "devonthink-add-reminder",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "add row",
+    "command_description": "Add new row to a sheet.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The tab, window or record of a sheet.",
+      "type_name": "specifier"
+    },
+    "parameters": [
+      {
+        "name": "cells",
+        "label": "cells",
+        "optional": false,
+        "description": "Cells of new row.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if adding was successful, false if not.",
+    "tool_name": "devonthink-add-row",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "check file integrity of",
+    "command_description": "Check file integrity of database.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "database",
+        "label": "database",
+        "optional": false,
+        "description": "The database to check.",
+        "type_name": null
+      }
+    ],
+    "result_description": "Number of files having an invalid content hash.",
+    "tool_name": "devonthink-check-file-integrity-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "classify",
+    "command_description": "Get a list of classification proposals.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record to classify.",
+        "type_name": null
+      },
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses all databases if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "comparison",
+        "label": "comparison",
+        "optional": true,
+        "description": "The comparison to use (default is data comparison).",
+        "type_name": null
+      },
+      {
+        "name": "tags",
+        "label": "tags",
+        "optional": true,
+        "description": "Propose ordinary tags instead of groups (off by default).",
+        "type_name": "boolean"
+      }
+    ],
+    "result_description": "The proposed groups or tags.",
+    "tool_name": "devonthink-classify",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "compare",
+    "command_description": "Get a list of similar records, either by specifying a record or a content.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": true,
+        "description": "The record to compare.",
+        "type_name": null
+      },
+      {
+        "name": "content",
+        "label": "content",
+        "optional": true,
+        "description": "The content to compare.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": true,
+        "description": "The database. Uses all databases if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "comparison",
+        "label": "comparison",
+        "optional": true,
+        "description": "The comparison to use (default is data comparison).",
+        "type_name": null
+      }
+    ],
+    "result_description": "The similar records.",
+    "tool_name": "devonthink-compare",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "compress",
+    "command_description": "Compress a database into a Zip archive.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "database",
+        "label": "database",
+        "optional": false,
+        "description": "The database to compress.",
+        "type_name": null
+      },
+      {
+        "name": "password",
+        "label": "password",
+        "optional": true,
+        "description": "The required password for encrypted or revision-proof databases.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "POSIX path or file URL of Zip archive. The path extension '.zip' is required.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if compressing was successful, false if not.",
+    "tool_name": "devonthink-compress",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "convert",
+    "command_description": "Convert a record to plain or rich text, formatted note or HTML and create a new record afterwards.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record(s) to convert.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": true,
+        "description": "The desired format (default simple).",
+        "type_name": null
+      },
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The destination group for the converted record. Parents of the record to convert are used if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The converted records.",
+    "tool_name": "devonthink-convert",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "convert feed to HTML",
+    "command_description": "Convert a RSS, RDF, JSON or Atom feed to HTML.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the feed.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "base URL",
+        "label": "base URL",
+        "optional": true,
+        "description": "The URL of the feed.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The converted HTML.",
+    "tool_name": "devonthink-convert-feed-to-html",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "create database",
+    "command_description": "Create a new database.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "POSIX file path of database. Suffix has to be either .dtBase2, .dtSparse (encrypted) or .dtArchive (encrypted & revision-proof).",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "encryption key",
+        "label": "encryption key",
+        "optional": true,
+        "description": "The encryption key.",
+        "type_name": null
+      },
+      {
+        "name": "size",
+        "label": "size",
+        "optional": true,
+        "description": "The maximal size of encrypted databases in MB.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The created database.",
+    "tool_name": "devonthink-create-database",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "create formatted note from",
+    "command_description": "Create a new formatted note from a web page.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The URL to download.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "agent",
+        "label": "agent",
+        "optional": true,
+        "description": "The user agent.",
+        "type_name": null
+      },
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The destination group for the new record. Uses incoming group or group selector if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "name",
+        "label": "name",
+        "optional": true,
+        "description": "The name for the new record.",
+        "type_name": null
+      },
+      {
+        "name": "readability",
+        "label": "readability",
+        "optional": true,
+        "description": "Declutter page layout.",
+        "type_name": null
+      },
+      {
+        "name": "referrer",
+        "label": "referrer",
+        "optional": true,
+        "description": "The HTTP referrer.",
+        "type_name": null
+      },
+      {
+        "name": "source",
+        "label": "source",
+        "optional": true,
+        "description": "The HTML source.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The created record.",
+    "tool_name": "devonthink-create-formatted-note-from",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "create location",
+    "command_description": "Create a hierarchy of groups if necessary.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The hierarchy as a POSIX path (/ in names has to be replaced with \\/, see location property).",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The destination database or group. Uses current database if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The existing or created group.",
+    "tool_name": "devonthink-create-location",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "create Markdown from",
+    "command_description": "Create a Markdown document from a web resource.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The URL to download.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "agent",
+        "label": "agent",
+        "optional": true,
+        "description": "The user agent.",
+        "type_name": null
+      },
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The destination group for the new record. Uses incoming group or group selector if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "name",
+        "label": "name",
+        "optional": true,
+        "description": "The name for the new record.",
+        "type_name": null
+      },
+      {
+        "name": "readability",
+        "label": "readability",
+        "optional": true,
+        "description": "Declutter page layout.",
+        "type_name": null
+      },
+      {
+        "name": "referrer",
+        "label": "referrer",
+        "optional": true,
+        "description": "The HTTP referrer.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The created record.",
+    "tool_name": "devonthink-create-markdown-from",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "create PDF document from",
+    "command_description": "Create a new PDF document with or without pagination from a web resource.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The URL to download.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "agent",
+        "label": "agent",
+        "optional": true,
+        "description": "The user agent.",
+        "type_name": null
+      },
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The destination group for the new record. Uses incoming group or group selector if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "name",
+        "label": "name",
+        "optional": true,
+        "description": "The name for the new record.",
+        "type_name": null
+      },
+      {
+        "name": "pagination",
+        "label": "pagination",
+        "optional": true,
+        "description": "Paginate PDF document or not.",
+        "type_name": null
+      },
+      {
+        "name": "readability",
+        "label": "readability",
+        "optional": true,
+        "description": "Declutter page layout.",
+        "type_name": null
+      },
+      {
+        "name": "referrer",
+        "label": "referrer",
+        "optional": true,
+        "description": "The HTTP referrer.",
+        "type_name": null
+      },
+      {
+        "name": "width",
+        "label": "width",
+        "optional": true,
+        "description": "The preferred width for the PDF document in points.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The clipped record.",
+    "tool_name": "devonthink-create-pdf-document-from",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "create record with",
+    "command_description": "Create a new record.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The properties of the record. At least 'type' or 'record type' is required, its value can be also specified as a string.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The destination group for the new record. Uses incoming group or group selector if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The created record.",
+    "tool_name": "devonthink-create-record-with",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "create thumbnail",
+    "command_description": "Create or update existing thumbnail of a record. Thumbnailing is performed asynchronously in the background.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "for",
+        "label": "for",
+        "optional": false,
+        "description": "The record.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if thumbnailing was successful, false if not.",
+    "tool_name": "devonthink-create-thumbnail",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "create web document from",
+    "command_description": "Create a new record (picture, PDF or web archive) from a web resource.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The URL to download.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "agent",
+        "label": "agent",
+        "optional": true,
+        "description": "The user agent.",
+        "type_name": null
+      },
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The destination group for the new record. Uses incoming group or group selector if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "name",
+        "label": "name",
+        "optional": true,
+        "description": "The name for the new record.",
+        "type_name": null
+      },
+      {
+        "name": "readability",
+        "label": "readability",
+        "optional": true,
+        "description": "Declutter page layout.",
+        "type_name": null
+      },
+      {
+        "name": "referrer",
+        "label": "referrer",
+        "optional": true,
+        "description": "The HTTP referrer.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The clipped record.",
+    "tool_name": "devonthink-create-web-document-from",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "delete",
+    "command_description": "Delete all instances of a record from the database or one instance from the specified group.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record(s) to delete.",
+        "type_name": null
+      },
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The parent group of this instance.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if deleting was successful, false if not.",
+    "tool_name": "devonthink-delete",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "delete row at",
+    "command_description": "Remove row at specified position from a sheet.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The tab, window or record of a sheet.",
+      "type_name": "specifier"
+    },
+    "parameters": [
+      {
+        "name": "position",
+        "label": "position",
+        "optional": false,
+        "description": "Position of row (1...n).",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if deleting was successful, false if not.",
+    "tool_name": "devonthink-delete-row-at",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "delete thumbnail",
+    "command_description": "Delete existing thumbnail of a record.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "of",
+        "label": "of",
+        "optional": false,
+        "description": "The record.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if deleting was successful, false if not.",
+    "tool_name": "devonthink-delete-thumbnail",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "delete workspace",
+    "command_description": "Delete a workspace.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The name of the workspace.",
+      "type_name": null
+    },
+    "parameters": [],
+    "result_description": "True if deleting was successful, false if not.",
+    "tool_name": "devonthink-delete-workspace",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "do JavaScript",
+    "command_description": "Executes a string of JavaScript code (optionally in the web view of a think window).",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The code.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The think window that the JavaScript should be executed in.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The result returned by the JavaScript code.",
+    "tool_name": "devonthink-do-javascript",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "download JSON from",
+    "command_description": "Download a JSON object.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The URL of the JSON object to download.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "agent",
+        "label": "agent",
+        "optional": true,
+        "description": "The user agent.",
+        "type_name": null
+      },
+      {
+        "name": "method",
+        "label": "method",
+        "optional": true,
+        "description": "The HTTP method ('GET' by default)",
+        "type_name": null
+      },
+      {
+        "name": "password",
+        "label": "password",
+        "optional": true,
+        "description": "The password for protected websites.",
+        "type_name": null
+      },
+      {
+        "name": "post",
+        "label": "post",
+        "optional": true,
+        "description": "A dictionary containing key-value pairs for HTTP POST actions.",
+        "type_name": null
+      },
+      {
+        "name": "referrer",
+        "label": "referrer",
+        "optional": true,
+        "description": "The HTTP referrer.",
+        "type_name": null
+      },
+      {
+        "name": "user",
+        "label": "user",
+        "optional": true,
+        "description": "The user name for protected websites.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The downloaded JSON object.",
+    "tool_name": "devonthink-download-json-from",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "download markup from",
+    "command_description": "Download an HTML or XML page (including RSS, RDF or Atom feeds).",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The URL of the HTML or XML page to download.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "agent",
+        "label": "agent",
+        "optional": true,
+        "description": "The user agent.",
+        "type_name": null
+      },
+      {
+        "name": "encoding",
+        "label": "encoding",
+        "optional": true,
+        "description": "The encoding of the page (default UTF-8).",
+        "type_name": null
+      },
+      {
+        "name": "method",
+        "label": "method",
+        "optional": true,
+        "description": "The HTTP method ('GET' by default)",
+        "type_name": null
+      },
+      {
+        "name": "password",
+        "label": "password",
+        "optional": true,
+        "description": "The password for protected websites.",
+        "type_name": null
+      },
+      {
+        "name": "post",
+        "label": "post",
+        "optional": true,
+        "description": "A dictionary containing key-value pairs for HTTP POST actions.",
+        "type_name": null
+      },
+      {
+        "name": "referrer",
+        "label": "referrer",
+        "optional": true,
+        "description": "The HTTP referrer.",
+        "type_name": null
+      },
+      {
+        "name": "user",
+        "label": "user",
+        "optional": true,
+        "description": "The user name for protected websites.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The downloaded XML/HTML.",
+    "tool_name": "devonthink-download-markup-from",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "download URL",
+    "command_description": "Download a URL.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The URL to download.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "agent",
+        "label": "agent",
+        "optional": true,
+        "description": "The user agent.",
+        "type_name": null
+      },
+      {
+        "name": "method",
+        "label": "method",
+        "optional": true,
+        "description": "The HTTP method ('GET' by default)",
+        "type_name": null
+      },
+      {
+        "name": "password",
+        "label": "password",
+        "optional": true,
+        "description": "The password for protected websites.",
+        "type_name": null
+      },
+      {
+        "name": "post",
+        "label": "post",
+        "optional": true,
+        "description": "A dictionary containing key-value pairs for HTTP POST actions.",
+        "type_name": null
+      },
+      {
+        "name": "referrer",
+        "label": "referrer",
+        "optional": true,
+        "description": "The HTTP referrer.",
+        "type_name": null
+      },
+      {
+        "name": "user",
+        "label": "user",
+        "optional": true,
+        "description": "The user name for protected websites.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The downloaded data.",
+    "tool_name": "devonthink-download-url",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "display authentication dialog",
+    "command_description": "Display a dialog to enter a username and its password.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": true,
+      "description": "The info for the dialog.",
+      "type_name": null
+    },
+    "parameters": [],
+    "result_description": "The authentication result.",
+    "tool_name": "devonthink-display-authentication-dialog",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "display date editor",
+    "command_description": "Display a dialog to enter a date.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": true,
+      "description": "The title of the dialog. By default the application name.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "default date",
+        "label": "default date",
+        "optional": true,
+        "description": "The default date.",
+        "type_name": null
+      },
+      {
+        "name": "info",
+        "label": "info",
+        "optional": true,
+        "description": "The info for the dialog.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The entered date.",
+    "tool_name": "devonthink-display-date-editor",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "display group selector",
+    "command_description": "Display a dialog to select a (destination) group.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": true,
+      "description": "The title of the dialog.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "buttons",
+        "label": "buttons",
+        "optional": true,
+        "description": "The labels for the cancel and select buttons.",
+        "type_name": null
+      },
+      {
+        "name": "for",
+        "label": "for",
+        "optional": true,
+        "description": "The database. All open databases are used if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "name",
+        "label": "name",
+        "optional": true,
+        "description": "Show field to enter a name (off by default)",
+        "type_name": null
+      },
+      {
+        "name": "tags",
+        "label": "tags",
+        "optional": true,
+        "description": "Show field to enter tags (off by default)",
+        "type_name": null
+      }
+    ],
+    "result_description": "The selected group (without 'name' and 'tags' parameters) due to compatibility to older versions or a group selector result (with 'name' and/or 'tags' parameters).",
+    "tool_name": "devonthink-display-group-selector",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "display name editor",
+    "command_description": "Display a dialog to enter a name.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": true,
+      "description": "The title of the dialog. By default the application name.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "default answer",
+        "label": "default answer",
+        "optional": true,
+        "description": "The default editable name.",
+        "type_name": null
+      },
+      {
+        "name": "info",
+        "label": "info",
+        "optional": true,
+        "description": "The info for the dialog.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The entered name.",
+    "tool_name": "devonthink-display-name-editor",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "duplicate",
+    "command_description": "Duplicate a record.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record(s) to duplicate. Indexed items are not supported by revision-proof databases.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The destination group which doesn't have to be in the same database.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The duplicated record(s).",
+    "tool_name": "devonthink-duplicate",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "exists record at",
+    "command_description": "Check if at least one record exists at the specified location.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The location of the record as a POSIX path (/ in names has to be replaced with \\/, see location property).",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The base database or group. Uses current database if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if records exists, false if not.",
+    "tool_name": "devonthink-exists-record-at",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "exists record with comment",
+    "command_description": "Check if at least one record with the specified comment exists.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The comment.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if records exists, false if not.",
+    "tool_name": "devonthink-exists-record-with-comment",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "exists record with content hash",
+    "command_description": "Check if at least one record with the specified content hash exists.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The content hash.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if records exists, false if not.",
+    "tool_name": "devonthink-exists-record-with-content-hash",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "exists record with file",
+    "command_description": "Check if at least one record with the specified last path component exists.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The filename.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if records exists, false if not.",
+    "tool_name": "devonthink-exists-record-with-file",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "exists record with path",
+    "command_description": "Check if at least one record with the specified path exists.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The path.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if records exists, false if not.",
+    "tool_name": "devonthink-exists-record-with-path",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "exists record with URL",
+    "command_description": "Check if at least one record with the specified URL exists.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The URL (or path).",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if records exists, false if not.",
+    "tool_name": "devonthink-exists-record-with-url",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "export",
+    "command_description": "Export a record (and its children).",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record to export.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The destination directory as a POSIX path or file URL. DEVONthink creates the destination if necessary.",
+        "type_name": null
+      },
+      {
+        "name": "DEVONtech_Storage",
+        "label": "DEVONtech_Storage",
+        "optional": true,
+        "description": "Export 'DEVONtech_Storage' files which include all metadata (e.g. flag, label, locking, aliases, comments, exclusions, custom metadata etc.) for importing. On by default.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The path of the exported record.",
+    "tool_name": "devonthink-export",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "export tags of",
+    "command_description": "Export Finder tags of a record.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if exporting was successful, false if not.",
+    "tool_name": "devonthink-export-tags-of",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "export website",
+    "command_description": "Export a record (and its children) as a website.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record to export.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The destination directory as a POSIX path or file URL. DEVONthink creates the destination if necessary.",
+        "type_name": null
+      },
+      {
+        "name": "template",
+        "label": "template",
+        "optional": true,
+        "description": "Name of built-in template or full POSIX path of template. Uses Default template if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "index pages",
+        "label": "index pages",
+        "optional": true,
+        "description": "Create index pages. Off by default.",
+        "type_name": null
+      },
+      {
+        "name": "encoding",
+        "label": "encoding",
+        "optional": true,
+        "description": "The encoding of the exported HTML pages (default UTF-8).",
+        "type_name": null
+      },
+      {
+        "name": "entities",
+        "label": "entities",
+        "optional": true,
+        "description": "Use HTML entities. Off by default.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The path of the exported record.",
+    "tool_name": "devonthink-export-website",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "extract keywords from",
+    "command_description": "Extract list of keywords from a record. The list is sorted by number of occurrences.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record.",
+        "type_name": null
+      },
+      {
+        "name": "barcodes",
+        "label": "barcodes",
+        "optional": true,
+        "description": "Include scanned barcodes.",
+        "type_name": null
+      },
+      {
+        "name": "existing tags",
+        "label": "existing tags",
+        "optional": true,
+        "description": "Include existing tags (and their aliases) found in the title, comment or text of the record.",
+        "type_name": null
+      },
+      {
+        "name": "hash tags",
+        "label": "hash tags",
+        "optional": true,
+        "description": "Include hash tags found in the title or text of the record.",
+        "type_name": null
+      },
+      {
+        "name": "image tags",
+        "label": "image tags",
+        "optional": true,
+        "description": "Include suggested image tags.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The extracted keywords.",
+    "tool_name": "devonthink-extract-keywords-from",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get cached data for URL",
+    "command_description": "Get cached data for URL of a resource which is part of a loaded webpage and its DOM tree, rendered in a think tab/window.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The URL.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "from",
+        "label": "from",
+        "optional": true,
+        "description": "The source think tab. Uses current tab of frontmost think window otherwise.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The cached data.",
+    "tool_name": "devonthink-get-cached-data-for-url",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get cell at",
+    "command_description": "Get content of cell at specified position of a sheet.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The tab, window or record of a sheet.",
+      "type_name": "specifier"
+    },
+    "parameters": [
+      {
+        "name": "column",
+        "label": "column",
+        "optional": false,
+        "description": "Either the index (1...n) or the name of the column of the cell.",
+        "type_name": null
+      },
+      {
+        "name": "row",
+        "label": "row",
+        "optional": false,
+        "description": "The row (1...n) of the cell.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The value of the cell.",
+    "tool_name": "devonthink-get-cell-at",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get concordance of",
+    "command_description": "Get list of words of a record. Supports both documents and groups/feeds.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record.",
+        "type_name": null
+      },
+      {
+        "name": "sorted by",
+        "label": "sorted by",
+        "optional": true,
+        "description": "Sorting of words (default is weight).",
+        "type_name": null
+      }
+    ],
+    "result_description": "The words.",
+    "tool_name": "devonthink-get-concordance-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get custom meta data",
+    "command_description": "Get user-defined metadata from a record.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "default value",
+        "label": "default value",
+        "optional": true,
+        "description": "Default value if user-defined metadata does not yet exist, otherwise a missing value is returned.",
+        "type_name": null
+      },
+      {
+        "name": "for",
+        "label": "for",
+        "optional": false,
+        "description": "The key of the user-defined value.",
+        "type_name": null
+      },
+      {
+        "name": "from",
+        "label": "from",
+        "optional": false,
+        "description": "The record.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The custom metadata value.",
+    "tool_name": "devonthink-get-custom-meta-data",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get database with id",
+    "command_description": "Get database with the specified id.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The scripting identifier.",
+      "type_name": null
+    },
+    "parameters": [],
+    "result_description": "The database with the specified id.",
+    "tool_name": "devonthink-get-database-with-id",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get database with uuid",
+    "command_description": "Get database with the specified uuid.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The unique identifier.",
+      "type_name": null
+    },
+    "parameters": [],
+    "result_description": "The database with the specified UUID.",
+    "tool_name": "devonthink-get-database-with-uuid",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get embedded images of",
+    "command_description": "Get the URLs of all embedded images of an HTML page.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the HTML page.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "base URL",
+        "label": "base URL",
+        "optional": true,
+        "description": "The URL of the HTML page containing the images.",
+        "type_name": null
+      },
+      {
+        "name": "file type",
+        "label": "file type",
+        "optional": true,
+        "description": "The desired type of the images (e.g. JPG, GIF, PNG, ...).",
+        "type_name": null
+      }
+    ],
+    "result_description": "The URLs of the images.",
+    "tool_name": "devonthink-get-embedded-images-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get embedded objects of",
+    "command_description": "Get the URLs of all embedded objects of an HTML page.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the HTML page.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "base URL",
+        "label": "base URL",
+        "optional": true,
+        "description": "The URL of the HTML page containing the embedded objects",
+        "type_name": null
+      },
+      {
+        "name": "file type",
+        "label": "file type",
+        "optional": true,
+        "description": "The desired type of the objects (e.g. MOV).",
+        "type_name": null
+      }
+    ],
+    "result_description": "The URLs of the objects.",
+    "tool_name": "devonthink-get-embedded-objects-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get embedded sheets and scripts of",
+    "command_description": "Get the URLs of all embedded style sheets and scripts of an HTML page.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the HTML page.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "base URL",
+        "label": "base URL",
+        "optional": true,
+        "description": "The URL of the HTML page containing the style sheets and scripts.",
+        "type_name": null
+      },
+      {
+        "name": "file type",
+        "label": "file type",
+        "optional": true,
+        "description": "The desired type of the sheets/scripts (e.g. CSS).",
+        "type_name": null
+      }
+    ],
+    "result_description": "The URLs of the sheets and scripts.",
+    "tool_name": "devonthink-get-embedded-sheets-and-scripts-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get favicon of",
+    "command_description": "Get the favicon of an HTML page.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the HTML page.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "base URL",
+        "label": "base URL",
+        "optional": true,
+        "description": "The URL of the HTML page containing the favicon.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The URL of the favicon.",
+    "tool_name": "devonthink-get-favicon-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get feed items of",
+    "command_description": "Get the feed items of a RSS, RDF, JSON or Atom feed.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the feed.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "base URL",
+        "label": "base URL",
+        "optional": true,
+        "description": "The URL of the feed.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The items of the feed.",
+    "tool_name": "devonthink-get-feed-items-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get frames of",
+    "command_description": "Get the URLs of all frames of an HTML page.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the HTML page.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "base URL",
+        "label": "base URL",
+        "optional": true,
+        "description": "The URL of the HTML page containing the frames.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The URLs of the frames.",
+    "tool_name": "devonthink-get-frames-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get items of feed",
+    "command_description": "Get the items of a RSS, RDF, JSON or Atom feed as dictionaries. 'get feed items of' is recommended for new scripts.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the feed.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "base URL",
+        "label": "base URL",
+        "optional": true,
+        "description": "The URL of the feed.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The items of the feed.",
+    "tool_name": "devonthink-get-items-of-feed",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get links of",
+    "command_description": "Get the URLs of all links of an HTML page.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the HTML page.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "base URL",
+        "label": "base URL",
+        "optional": true,
+        "description": "The URL of the HTML page containing the links.",
+        "type_name": null
+      },
+      {
+        "name": "containing",
+        "label": "containing",
+        "optional": true,
+        "description": "The case sensitive string matched against the description of links.",
+        "type_name": null
+      },
+      {
+        "name": "file type",
+        "label": "file type",
+        "optional": true,
+        "description": "The desired type of the links (e.g. HTML, PHP, JPG, ...).",
+        "type_name": null
+      }
+    ],
+    "result_description": "The URLs of the links.",
+    "tool_name": "devonthink-get-links-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get metadata of",
+    "command_description": "Get the metadata of an HTML page or of a Markdown document.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": true,
+      "description": "The source code of the HTML page.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "base URL",
+        "label": "base URL",
+        "optional": true,
+        "description": "The URL of the HTML page.",
+        "type_name": null
+      },
+      {
+        "name": "markdown",
+        "label": "markdown",
+        "optional": true,
+        "description": "The source of the Markdown document.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The metadata.",
+    "tool_name": "devonthink-get-metadata-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get record at",
+    "command_description": "Search for record at the specified location.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The location of the record as a POSIX path (/ in names has to be replaced with \\/, see location property).",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The base database or group. Uses current database if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The record at the specified location.",
+    "tool_name": "devonthink-get-record-at",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get record with id",
+    "command_description": "Get record with the specified id.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The scripting identifier.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The record with the specified id.",
+    "tool_name": "devonthink-get-record-with-id",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get record with uuid",
+    "command_description": "Get record with the specified uuid or item link.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The unique identifier or item link.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses all databases if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The record with the specified UUID.",
+    "tool_name": "devonthink-get-record-with-uuid",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get rich text of",
+    "command_description": "Get the rich text of an HTML page.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the HTML page.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "base URL",
+        "label": "base URL",
+        "optional": true,
+        "description": "The URL of the HTML page",
+        "type_name": null
+      }
+    ],
+    "result_description": "The HTML page converted to rich text.",
+    "tool_name": "devonthink-get-rich-text-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get text of",
+    "command_description": "Get the text of an HTML page.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the HTML page.",
+      "type_name": null
+    },
+    "parameters": [],
+    "result_description": "The plain text of the HTML page.",
+    "tool_name": "devonthink-get-text-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get title of",
+    "command_description": "Get the title of an HTML page.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The source code of the HTML page.",
+      "type_name": null
+    },
+    "parameters": [],
+    "result_description": "The title of the HTML page.",
+    "tool_name": "devonthink-get-title-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "get versions of",
+    "command_description": "Get saved versions of a record.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The list of saved versions sorted by date (oldest one at beginning).",
+    "tool_name": "devonthink-get-versions-of",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "hide progress indicator",
+    "command_description": "Hide a visible progress indicator.",
+    "direct_parameter": null,
+    "parameters": [],
+    "result_description": "True if hiding was successful, false if not.",
+    "tool_name": "devonthink-hide-progress-indicator",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "import attachments of",
+    "command_description": "Import attachments of an email.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record of an email.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": true,
+        "description": "The destination group. Uses incoming group or group selector if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The imported attachment records. The creation and modification date of the email is retained.",
+    "tool_name": "devonthink-import-attachments-of",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "import path",
+    "command_description": "Import a file or folder (including its subfolders).",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The POSIX path or file URL of the file or folder.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "from",
+        "label": "from",
+        "optional": true,
+        "description": "The name of the source application.",
+        "type_name": null
+      },
+      {
+        "name": "name",
+        "label": "name",
+        "optional": true,
+        "description": "The name for the imported record.",
+        "type_name": null
+      },
+      {
+        "name": "placeholders",
+        "label": "placeholders",
+        "optional": true,
+        "description": "Optional placeholders as key-value-pairs for text, RTF/RTFD & HTML/XML templates and filenames. NOTE: The standard placeholders of .dtTemplate packages are also supported if this parameter is specified.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": true,
+        "description": "The destination group. Uses incoming group or group selector if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The imported record.",
+    "tool_name": "devonthink-import-path",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "import template",
+    "command_description": "Import a template. Template scripts are not supported and revision-proof databases do not support any templates at all.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The POSIX path or file URL of the template.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "to",
+        "label": "to",
+        "optional": true,
+        "description": "The destination group. Uses incoming group or group selector if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The imported record.",
+    "tool_name": "devonthink-import-template",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "index path",
+    "command_description": "Index a file or folder (including its subfolders). Not supported by revision-proof databases.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The POSIX path or file URL of the file or folder.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "to",
+        "label": "to",
+        "optional": true,
+        "description": "The destination group. Uses incoming group or group selector if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The indexed record.",
+    "tool_name": "devonthink-index-path",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "load workspace",
+    "command_description": "Load a workspace.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The name of the workspace.",
+      "type_name": null
+    },
+    "parameters": [],
+    "result_description": "True if loading was successful, false if not.",
+    "tool_name": "devonthink-load-workspace",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "log message",
+    "command_description": "Log info for a record, file or action to the Window > Log panel",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": true,
+      "description": "The optional POSIX path or action.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": true,
+        "description": "The record. Requires either the direct or the 'info' parameter.",
+        "type_name": null
+      },
+      {
+        "name": "info",
+        "label": "info",
+        "optional": true,
+        "description": "Additional information.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if logging was successful, false if not.",
+    "tool_name": "devonthink-log-message",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "lookup records with comment",
+    "command_description": "Lookup records with specified comment.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The comment.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified",
+        "type_name": null
+      }
+    ],
+    "result_description": "The records with the specified comment.",
+    "tool_name": "devonthink-lookup-records-with-comment",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "lookup records with content hash",
+    "command_description": "Lookup records with specified content hash.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The content hash.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified",
+        "type_name": null
+      }
+    ],
+    "result_description": "The records with the specified content hash.",
+    "tool_name": "devonthink-lookup-records-with-content-hash",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "lookup records with file",
+    "command_description": "Lookup records whose last path component is the specified file.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The filename.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified",
+        "type_name": null
+      }
+    ],
+    "result_description": "The records with the specified file.",
+    "tool_name": "devonthink-lookup-records-with-file",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "lookup records with path",
+    "command_description": "Lookup records with specified path.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The path.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The records with the specified path.",
+    "tool_name": "devonthink-lookup-records-with-path",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "lookup records with tags",
+    "command_description": "Lookup records with all or any of the specified tags.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The tags.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "any",
+        "label": "any",
+        "optional": true,
+        "description": "Lookup any or all (default) tags.",
+        "type_name": null
+      },
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The found records.",
+    "tool_name": "devonthink-lookup-records-with-tags",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "lookup records with URL",
+    "command_description": "Lookup records with specified URL.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The URL (or path).",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The database. Uses current database if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The records with the specified URL.",
+    "tool_name": "devonthink-lookup-records-with-url",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "merge",
+    "command_description": "Merge either a list of records as an RTF(D)/a PDF document or merge a list of not indexed groups/tags.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The destination group for the merged record. The root of the database is used if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "records",
+        "label": "records",
+        "optional": false,
+        "description": "The records to merge.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The merged record.",
+    "tool_name": "devonthink-merge",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "move",
+    "command_description": "Move all instances of a record to a different group.  Specify the 'from' group to move a single instance to a different group.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record(s) to move. Indexed items are not supported by revision-proof databases.",
+        "type_name": null
+      },
+      {
+        "name": "from",
+        "label": "from",
+        "optional": true,
+        "description": "The source group. Only applicable if record and destination group are in the same database",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The destination group which doesn't have to be in the same database.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The moved record(s).",
+    "tool_name": "devonthink-move",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "move into database",
+    "command_description": "Move an external/indexed record (and its children) into the database. Not supported by revision-proof databases.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record to move.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if moving was successful, false if not.",
+    "tool_name": "devonthink-move-into-database",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "move to external folder",
+    "command_description": "Move an internal/imported record (and its children) to the enclosing external folder in the filesystem. Creation/Modification dates, Spotlight comments and OpenMeta tags are immediately updated. Not supported by revision-proof databases.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record to move.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": true,
+        "description": "The POSIX path or file URL of the destination folder. Only supported by documents.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if moving was successful, false if not.",
+    "tool_name": "devonthink-move-to-external-folder",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "open database",
+    "command_description": "Open an existing database.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "POSIX file path of database.",
+      "type_name": null
+    },
+    "parameters": [],
+    "result_description": "The opened database.",
+    "tool_name": "devonthink-open-database",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "open tab for",
+    "command_description": "Open a new tab for the specified URL or record in a think window.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": true,
+        "description": "The record to open.",
+        "type_name": null
+      },
+      {
+        "name": "URL",
+        "label": "URL",
+        "optional": true,
+        "description": "The URL to open.",
+        "type_name": null
+      },
+      {
+        "name": "referrer",
+        "label": "referrer",
+        "optional": true,
+        "description": "The HTTP referrer.",
+        "type_name": null
+      },
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The optional think window that should open a new tab. A new window is used otherwise.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The opened tab.",
+    "tool_name": "devonthink-open-tab-for",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "open window for",
+    "command_description": "Open a (new) main or document window for the specified record. Only recommended for main windows, use 'open tab for' for document windows.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record to open.",
+        "type_name": null
+      },
+      {
+        "name": "enforcement",
+        "label": "enforcement",
+        "optional": true,
+        "description": "Enforce DEVONthink to always open a new window, even if the record is already opened in one. Off by default.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The opened window.",
+    "tool_name": "devonthink-open-window-for",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "optimize",
+    "command_description": "Backup & optimize a database.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "database",
+        "label": "database",
+        "optional": false,
+        "description": "The database to optimize.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if optimizing was successful, false if not.",
+    "tool_name": "devonthink-optimize",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "paste clipboard",
+    "command_description": "Create a new record with the contents of the clipboard.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "to",
+        "label": "to",
+        "optional": true,
+        "description": "The destination group for the new record. Uses incoming group or group selector if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The pasted record.",
+    "tool_name": "devonthink-paste-clipboard",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "perform smart rule",
+    "command_description": "Perform one or all smart rules.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "name",
+        "label": "name",
+        "optional": true,
+        "description": "The name of the smart rule. All smart rules are used if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "record",
+        "label": "record",
+        "optional": true,
+        "description": "The record. All records matching the smart rule(s) conditions are used if no record is specified.",
+        "type_name": null
+      },
+      {
+        "name": "trigger",
+        "label": "trigger",
+        "optional": true,
+        "description": "The optional event to trigger smart rules.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if performing was successful, false if not.",
+    "tool_name": "devonthink-perform-smart-rule",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "refresh",
+    "command_description": "Refresh a record. Currently only supported by feeds but not by revision-proof databases.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record to refresh.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if refreshing was successful, false if not.",
+    "tool_name": "devonthink-refresh",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "replicate",
+    "command_description": "Replicate a record.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record(s) to replicate.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The destination group which must be in the same database.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The replicated record(s).",
+    "tool_name": "devonthink-replicate",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "restore record with",
+    "command_description": "Restore saved version of a record.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "version",
+        "label": "version",
+        "optional": false,
+        "description": "The saved version. The record of the version is automatically retrieved.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if restoring was successful, false otherwise.",
+    "tool_name": "devonthink-restore-record-with",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "save version of",
+    "command_description": "Save version of current record. NOTE: Use this command right before editing the contents, not afterwards, as duplicates are automatically removed.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The saved version.",
+    "tool_name": "devonthink-save-version-of",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "save workspace",
+    "command_description": "Save a workspace.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The name of the workspace.",
+      "type_name": null
+    },
+    "parameters": [],
+    "result_description": "True if saving was successful, false if not.",
+    "tool_name": "devonthink-save-workspace",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "search",
+    "command_description": "Search for records in specified group or all databases.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": true,
+      "description": "The search string. Supports keys, operators and wildcards.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "comparison",
+        "label": "comparison",
+        "optional": true,
+        "description": "The comparison to use (default no case).",
+        "type_name": null
+      },
+      {
+        "name": "exclude subgroups",
+        "label": "exclude subgroups",
+        "optional": true,
+        "description": "Don't search in subgroups of the specified group. Off by default.",
+        "type_name": null
+      },
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The group to search in. Searches in all databases if not specified.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The found records.",
+    "tool_name": "devonthink-search",
+    "tier": "canonical"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "set cell at",
+    "command_description": "Set cell at specified position of a sheet.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The tab, window or record of a sheet.",
+      "type_name": "specifier"
+    },
+    "parameters": [
+      {
+        "name": "column",
+        "label": "column",
+        "optional": false,
+        "description": "Either the index (1...n) or the name of the column of the cell.",
+        "type_name": null
+      },
+      {
+        "name": "row",
+        "label": "row",
+        "optional": false,
+        "description": "The row (1...n) of the cell.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The content of the cell.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if setting was successful, false if not.",
+    "tool_name": "devonthink-set-cell-at",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "show progress indicator",
+    "command_description": "Show a progress indicator or update an already visible indicator. You have to ensure that the indicator is hidden again via 'hide progress indicator' when the script ends or if an error occurs.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The title of the progress.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "cancel button",
+        "label": "cancel button",
+        "optional": true,
+        "description": "Display a button to cancel the process.",
+        "type_name": null
+      },
+      {
+        "name": "steps",
+        "label": "steps",
+        "optional": true,
+        "description": "The number of steps of the progress or a negative value for an indeterminate number.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if showing was successful, false if not.",
+    "tool_name": "devonthink-show-progress-indicator",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "show search",
+    "command_description": "Perform search in frontmost main window. Opens a new main window if there's none.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": true,
+      "description": "The search string. Supports keys, operators and wildcards.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "comparison",
+        "label": "comparison",
+        "optional": true,
+        "description": "The comparison to use (default no case).",
+        "type_name": null
+      },
+      {
+        "name": "exclude subgroups",
+        "label": "exclude subgroups",
+        "optional": true,
+        "description": "Don't search in subgroups of the specified group. Off by default.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if the search was performed, false if not.",
+    "tool_name": "devonthink-show-search",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "start downloads",
+    "command_description": "Start queue of download manager.",
+    "direct_parameter": null,
+    "parameters": [],
+    "result_description": "True if starting was successful, false if not.",
+    "tool_name": "devonthink-start-downloads",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "step progress indicator",
+    "command_description": "Go to next step of a progress.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": true,
+      "description": "The info for the current step.",
+      "type_name": null
+    },
+    "parameters": [],
+    "result_description": "True if stepping was successful, false if not.",
+    "tool_name": "devonthink-step-progress-indicator",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "stop downloads",
+    "command_description": "Stop queue of download manager.",
+    "direct_parameter": null,
+    "parameters": [],
+    "result_description": "True if stopping was successful, false if not.",
+    "tool_name": "devonthink-stop-downloads",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "summarize annotations of",
+    "command_description": "Summarize highlights & annotations of records. PDF, RTF(D), Markdown and web documents are currently supported.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The destination group for the summary. The current group of the database is used if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "records",
+        "label": "records",
+        "optional": false,
+        "description": "The records to summarize.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The desired format. Only 'markdown', 'rich' and 'sheet' are currently supported.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The created record.",
+    "tool_name": "devonthink-summarize-annotations-of",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "summarize contents of",
+    "command_description": "Summarize content of records.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The destination group for the summary. The current group of the database is used if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "records",
+        "label": "records",
+        "optional": false,
+        "description": "The records to summarize.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The desired format. Only 'markdown', 'simple' and 'rich' are currently supported.",
+        "type_name": null
+      },
+      {
+        "name": "as",
+        "label": "as",
+        "optional": true,
+        "description": "The desired summary style. If no value is specified the settings default is used.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The created record.",
+    "tool_name": "devonthink-summarize-contents-of",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "summarize mentions of",
+    "command_description": "Summarize mentions of records.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "in",
+        "label": "in",
+        "optional": true,
+        "description": "The destination group for the summary. The current group of the database is used if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "records",
+        "label": "records",
+        "optional": false,
+        "description": "The records to summarize.",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The desired format. Only 'markdown' and 'rich' are currently supported.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The created record.",
+    "tool_name": "devonthink-summarize-mentions-of",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "summarize text",
+    "command_description": "Summarizes text.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The text to summarize.",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "as",
+        "label": "as",
+        "optional": true,
+        "description": "The desired summary style. If no value is specified the settings default is used.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The summarized text.",
+    "tool_name": "devonthink-summarize-text",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "synchronize",
+    "command_description": "Synchronizes records with the filesystem or databases with their sync locations. Only one of both operations is supported.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": true,
+        "description": "The (external) record to update. New items are added, updated ones indexed and obsolete ones removed. NOTE: This is rarely necessary as databases are usually automatically updated by filesystem events. In addition, revision-proof databases do not support this.",
+        "type_name": null
+      },
+      {
+        "name": "database",
+        "label": "database",
+        "optional": true,
+        "description": "The database to synchronize via its sync locations.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if synchronizing was successful, false if not.",
+    "tool_name": "devonthink-synchronize",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "transcribe",
+    "command_description": "Transcribes speech, text or notes of a record.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "An audio record, a video record containing an audio track, a PDF document or an image.",
+        "type_name": null
+      },
+      {
+        "name": "language",
+        "label": "language",
+        "optional": true,
+        "description": "ISO language code, e.g. 'en' or 'de'. If no value is specified the settings default is used.",
+        "type_name": null
+      },
+      {
+        "name": "timestamps",
+        "label": "timestamps",
+        "optional": true,
+        "description": "Transcription should include timestamps or not. If no value is specified the settings default is used.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The transcribed text if successful.",
+    "tool_name": "devonthink-transcribe",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "update",
+    "command_description": "Update text of a plain/rich text, Markdown document, formatted note or HTML page. Not supported by revision-proof databases.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The record to update.",
+        "type_name": null
+      },
+      {
+        "name": "with text",
+        "label": "with text",
+        "optional": false,
+        "description": "The text which should be updated/set, inserted or appended.",
+        "type_name": null
+      },
+      {
+        "name": "mode",
+        "label": "mode",
+        "optional": false,
+        "description": "The desired mode.",
+        "type_name": null
+      },
+      {
+        "name": "URL",
+        "label": "URL",
+        "optional": true,
+        "description": "The URL of the text.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if updating was successful, false if not.",
+    "tool_name": "devonthink-update",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "update thumbnail",
+    "command_description": "Update existing thumbnail of a record. Thumbnailing is performed asynchronously in the background.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "of",
+        "label": "of",
+        "optional": false,
+        "description": "The record.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if updating was successful, false if not.",
+    "tool_name": "devonthink-update-thumbnail",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "DEVONthink Suite",
+    "command_name": "verify",
+    "command_description": "Verify a database.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "database",
+        "label": "database",
+        "optional": false,
+        "description": "The database to verify.",
+        "type_name": null
+      }
+    ],
+    "result_description": "Total number of errors, invalid filenames and missing files.",
+    "tool_name": "devonthink-verify",
+    "tier": "internal"
+  },
+  {
+    "suite_name": "OCR Commands Suite",
+    "command_name": "convert image",
+    "command_description": "Converts a record to a new record and applies OCR.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "A record containing an image",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": true,
+        "description": "The destination group (by default the same group as the input record)",
+        "type_name": null
+      },
+      {
+        "name": "rotate by",
+        "label": "rotate by",
+        "optional": true,
+        "description": "Rotates the incoming image page 0, 90, 180 or 270 degrees (by default it is automatic)",
+        "type_name": null
+      },
+      {
+        "name": "file type",
+        "label": "file type",
+        "optional": true,
+        "description": "Specifies what type of file to convert to. If no value is specified the settings default is used.",
+        "type_name": null
+      },
+      {
+        "name": "waiting for reply",
+        "label": "waiting for reply",
+        "optional": true,
+        "description": "Wait for reply (default) or perform the command in the background.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The converted record.",
+    "tool_name": "devonthink-convert-image",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "OCR Commands Suite",
+    "command_name": "ocr",
+    "command_description": "Imports a PDF document or image with OCR.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "file",
+        "label": "file",
+        "optional": false,
+        "description": "POSIX path or file URL of the image file.",
+        "type_name": null
+      },
+      {
+        "name": "attributes",
+        "label": "attributes",
+        "optional": true,
+        "description": "The PDF properties.",
+        "type_name": null
+      },
+      {
+        "name": "rotate by",
+        "label": "rotate by",
+        "optional": true,
+        "description": "Rotates the incoming image page 0, 90, 180 or 270 degrees (by default it is automatic)",
+        "type_name": null
+      },
+      {
+        "name": "to",
+        "label": "to",
+        "optional": true,
+        "description": "The destination group. Uses incoming group or group selector if not specified.",
+        "type_name": null
+      },
+      {
+        "name": "file type",
+        "label": "file type",
+        "optional": true,
+        "description": "Specifies what type of file to convert to. If no value is specified the settings default is used.",
+        "type_name": null
+      },
+      {
+        "name": "waiting for reply",
+        "label": "waiting for reply",
+        "optional": true,
+        "description": "Wait for reply (default) or perform the command in the background.",
+        "type_name": null
+      }
+    ],
+    "result_description": "The OCRed record.",
+    "tool_name": "devonthink-ocr",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Imprint Commands Suite",
+    "command_name": "imprinter configuration names",
+    "command_description": "Returns list of imprinter configuration names",
+    "direct_parameter": null,
+    "parameters": [],
+    "result_description": "The configuration names.",
+    "tool_name": "devonthink-imprinter-configuration-names",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Imprint Commands Suite",
+    "command_name": "imprint configuration",
+    "command_description": "Imprint the record with a given imprinter configuration. Not supported by revision-proof databases.",
+    "direct_parameter": {
+      "name": "direct",
+      "label": "",
+      "optional": false,
+      "description": "The name of the imprinter configuration",
+      "type_name": null
+    },
+    "parameters": [
+      {
+        "name": "to",
+        "label": "to",
+        "optional": false,
+        "description": "The image or PDF record to imprint",
+        "type_name": null
+      },
+      {
+        "name": "waiting for reply",
+        "label": "waiting for reply",
+        "optional": true,
+        "description": "Wait for reply (default) or perform the command in the background.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if imprinting was successful, false if not.",
+    "tool_name": "devonthink-imprint-configuration",
+    "tier": "advanced"
+  },
+  {
+    "suite_name": "Imprint Commands Suite",
+    "command_name": "imprint",
+    "command_description": "Imprint the record with a configuration defined in the parameters. Not supported by revision-proof databases.",
+    "direct_parameter": null,
+    "parameters": [
+      {
+        "name": "record",
+        "label": "record",
+        "optional": false,
+        "description": "The image or PDF record to imprint",
+        "type_name": null
+      },
+      {
+        "name": "background color",
+        "label": "background color",
+        "optional": true,
+        "description": "Color expressed as an RGB value consisting of a list of three color values from 0 to 65535. ex: Blue = {0, 0, 65535} (Optional).",
+        "type_name": null
+      },
+      {
+        "name": "border color",
+        "label": "border color",
+        "optional": true,
+        "description": "Color expressed as an RGB value consisting of a list of three color values from 0 to 65535. ex: Blue = {0, 0, 65535} (Optional).",
+        "type_name": null
+      },
+      {
+        "name": "border style",
+        "label": "border style",
+        "optional": true,
+        "description": "The type of border to be drawn (Optional).",
+        "type_name": null
+      },
+      {
+        "name": "border width",
+        "label": "border width",
+        "optional": true,
+        "description": "Width of the border for a given border style (Optional).",
+        "type_name": null
+      },
+      {
+        "name": "font",
+        "label": "font",
+        "optional": false,
+        "description": "The name of the font. Can be the PostScript name, such as: \u201cTimesNewRomanPS-ItalicMT\u201d, or display name: \u201cTimes New Roman Italic\u201d. ",
+        "type_name": null
+      },
+      {
+        "name": "foreground color",
+        "label": "foreground color",
+        "optional": true,
+        "description": "Color expressed as an RGB value consisting of a list of three color values from 0 to 65535. ex: Blue = {0, 0, 65535} (Optional).",
+        "type_name": null
+      },
+      {
+        "name": "occurence",
+        "label": "occurence",
+        "optional": true,
+        "description": "On what pages should the imprint occur (Optional). ",
+        "type_name": null
+      },
+      {
+        "name": "outlined",
+        "label": "outlined",
+        "optional": true,
+        "description": "The text will be drawn as an outline if true (Optional).",
+        "type_name": null
+      },
+      {
+        "name": "position",
+        "label": "position",
+        "optional": false,
+        "description": "Specifies where the imprint will be drawn",
+        "type_name": null
+      },
+      {
+        "name": "rotation",
+        "label": "rotation",
+        "optional": true,
+        "description": "Rotation value in degrees (Optional)",
+        "type_name": null
+      },
+      {
+        "name": "size",
+        "label": "size",
+        "optional": false,
+        "description": "Size of the font.",
+        "type_name": null
+      },
+      {
+        "name": "strike through",
+        "label": "strike through",
+        "optional": true,
+        "description": "The text is striked through if true (Optional).",
+        "type_name": null
+      },
+      {
+        "name": "text",
+        "label": "text",
+        "optional": false,
+        "description": "The text, including any placeholders to imprint ",
+        "type_name": null
+      },
+      {
+        "name": "underlined",
+        "label": "underlined",
+        "optional": true,
+        "description": "The text is underlined if true (Optional).",
+        "type_name": null
+      },
+      {
+        "name": "x offset",
+        "label": "x offset",
+        "optional": true,
+        "description": "An x offset in pixels from the position (Optional).",
+        "type_name": null
+      },
+      {
+        "name": "y offset",
+        "label": "y offset",
+        "optional": true,
+        "description": "An y offset in pixels from the position (Optional).",
+        "type_name": null
+      },
+      {
+        "name": "waiting for reply",
+        "label": "waiting for reply",
+        "optional": true,
+        "description": "Wait for reply (default) or perform the command in the background.",
+        "type_name": null
+      }
+    ],
+    "result_description": "True if imprinting was successful, false if not.",
+    "tool_name": "devonthink-imprint",
+    "tier": "advanced"
+  }
+]

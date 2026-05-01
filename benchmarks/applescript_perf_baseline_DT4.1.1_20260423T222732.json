@@ -1,0 +1,24 @@
+{
+  "dt_version": "4.1.1",
+  "captured_at_utc": "2026-04-23T14:27:32.105546+00:00",
+  "group": {
+    "uuid": "5D91AFA3-969B-4479-BCEC-0EF9388C7576",
+    "name": "Experiments",
+    "child_count": 22,
+    "source": "name:Experiments"
+  },
+  "traversal_ok": true,
+  "duration_ms": 29135,
+  "search_calls_made": 7,
+  "avg_ms_per_call": 4162.143,
+  "stats": {
+    "node_count": 28,
+    "edge_count": 53,
+    "shape_count": 6,
+    "smart_group_query_count": 0,
+    "smart_group_skipped_count": 0,
+    "search_calls_made": 7,
+    "search_calls_degraded": 0,
+    "missing_value_coercions": 0
+  }
+}

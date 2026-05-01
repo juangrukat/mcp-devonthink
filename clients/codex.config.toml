@@ -1,0 +1,9 @@
+[mcp_servers.devonthink]
+command = "/ABS/PATH/TO/REPO/.venv/bin/python"
+args = ["/ABS/PATH/TO/REPO/main.py", "--transport=stdio"]
+startup_timeout_sec = 25
+tool_timeout_sec = 180
+
+[mcp_servers.devonthink.env]
+PYTHONUNBUFFERED = "1"
+DEVONTHINK_TOOL_PROFILE = "canonical"

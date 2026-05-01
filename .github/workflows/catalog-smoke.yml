@@ -1,0 +1,24 @@
+name: Catalog Smoke
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  catalog-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build tool catalog
+        run: python3 scripts/build_tool_catalog.py
+
+      - name: Lint tool catalog
+        run: python3 scripts/lint_tool_catalog.py
+
+      - name: Static tool synthesis audit
+        run: python3 scripts/stress_test_tools.py --json-out docs/artifacts/tool-stress-report.json

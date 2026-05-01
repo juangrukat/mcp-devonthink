@@ -1,0 +1,1684 @@
+{
+  "summary": {
+    "total_dictionary_tools": 130,
+    "build_ok_count": 130,
+    "build_failure_count": 0,
+    "malformed_pattern_count": 0,
+    "weak_description_count": 0,
+    "requires_live_fixture_testing": [
+      "all write/mutate tools",
+      "all advanced database lifecycle tools",
+      "all UI-coupled tools"
+    ]
+  },
+  "reports": [
+    {
+      "tool_name": "devonthink-close",
+      "command_name": "close",
+      "tier": "advanced",
+      "suite": "Standard Suite",
+      "sample_direct": "0444C204-D8AD-4CC0-8A9A-9F6817C12896",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "close database with uuid \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-save",
+      "command_name": "save",
+      "tier": "advanced",
+      "suite": "Standard Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "save \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-quit",
+      "command_name": "quit",
+      "tier": "advanced",
+      "suite": "Standard Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "quit",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-count",
+      "command_name": "count",
+      "tier": "canonical",
+      "suite": "Standard Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "count \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-exists",
+      "command_name": "exists",
+      "tier": "canonical",
+      "suite": "Standard Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "exists \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-make",
+      "command_name": "make",
+      "tier": "advanced",
+      "suite": "Standard Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "new": "mcp test sample"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "make new \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-bold",
+      "command_name": "bold",
+      "tier": "advanced",
+      "suite": "Extended Text Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "bold \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-italicize",
+      "command_name": "italicize",
+      "tier": "advanced",
+      "suite": "Extended Text Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "italicize \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-plain",
+      "command_name": "plain",
+      "tier": "advanced",
+      "suite": "Extended Text Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "plain \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-reformat",
+      "command_name": "reformat",
+      "tier": "advanced",
+      "suite": "Extended Text Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "reformat \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-scroll-to-visible",
+      "command_name": "scroll to visible",
+      "tier": "advanced",
+      "suite": "Extended Text Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "scroll to visible \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-strike",
+      "command_name": "strike",
+      "tier": "advanced",
+      "suite": "Extended Text Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "strike \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-unbold",
+      "command_name": "unbold",
+      "tier": "advanced",
+      "suite": "Extended Text Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "unbold \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-underline",
+      "command_name": "underline",
+      "tier": "advanced",
+      "suite": "Extended Text Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "underline \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-unitalicize",
+      "command_name": "unitalicize",
+      "tier": "advanced",
+      "suite": "Extended Text Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "unitalicize \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-unstrike",
+      "command_name": "unstrike",
+      "tier": "advanced",
+      "suite": "Extended Text Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "unstrike \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-ununderline",
+      "command_name": "ununderline",
+      "tier": "advanced",
+      "suite": "Extended Text Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "ununderline \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-add-custom-meta-data",
+      "command_name": "add custom meta data",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {
+        "for": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+        "to": "180AA7E9-CBB5-4DEF-8F06-7DEDD2809E5B"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "add custom meta data \"mcp test sample\" for record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\" to record with uuid \"180AA7E9-CBB5-4DEF-8F06-7DEDD2809E5B\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-add-download",
+      "command_name": "add download",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "add download \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-add-reading-list",
+      "command_name": "add reading list",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "add reading list",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-add-reminder",
+      "command_name": "add reminder",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {
+        "to": "180AA7E9-CBB5-4DEF-8F06-7DEDD2809E5B"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "add reminder \"mcp test sample\" to record with uuid \"180AA7E9-CBB5-4DEF-8F06-7DEDD2809E5B\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-add-row",
+      "command_name": "add row",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {
+        "cells": "mcp test sample"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "add row record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\" cells \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-check-file-integrity-of",
+      "command_name": "check file integrity of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "database": "0444C204-D8AD-4CC0-8A9A-9F6817C12896"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "check file integrity of database with uuid \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-classify",
+      "command_name": "classify",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "classify record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-compare",
+      "command_name": "compare",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "compare",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-compress",
+      "command_name": "compress",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "database": "0444C204-D8AD-4CC0-8A9A-9F6817C12896",
+        "to": "https://example.com"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "compress database with uuid \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\" to \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-convert",
+      "command_name": "convert",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "convert record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-convert-feed-to-html",
+      "command_name": "convert feed to HTML",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "convert feed to HTML \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-create-database",
+      "command_name": "create database",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "0444C204-D8AD-4CC0-8A9A-9F6817C12896",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "create database \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-create-formatted-note-from",
+      "command_name": "create formatted note from",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "create formatted note from \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-create-location",
+      "command_name": "create location",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "/tmp/devonthink-mcp-sample.txt",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "create location \"/tmp/devonthink-mcp-sample.txt\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-create-markdown-from",
+      "command_name": "create Markdown from",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "create Markdown from \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-create-pdf-document-from",
+      "command_name": "create PDF document from",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "create PDF document from \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-create-record-with",
+      "command_name": "create record with",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "create record with \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-create-thumbnail",
+      "command_name": "create thumbnail",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "for": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "create thumbnail for record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-create-web-document-from",
+      "command_name": "create web document from",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "create web document from \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-delete",
+      "command_name": "delete",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "delete record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-delete-row-at",
+      "command_name": "delete row at",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {
+        "position": 1
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "delete row at record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\" position 1",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-delete-thumbnail",
+      "command_name": "delete thumbnail",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "of": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "delete thumbnail of record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-delete-workspace",
+      "command_name": "delete workspace",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "delete workspace \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-do-javascript",
+      "command_name": "do JavaScript",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "do JavaScript \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-download-json-from",
+      "command_name": "download JSON from",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "download JSON from \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-download-markup-from",
+      "command_name": "download markup from",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "download markup from \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-download-url",
+      "command_name": "download URL",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "download URL \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-display-authentication-dialog",
+      "command_name": "display authentication dialog",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "display authentication dialog",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-display-date-editor",
+      "command_name": "display date editor",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "display date editor",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-display-group-selector",
+      "command_name": "display group selector",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "display group selector",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-display-name-editor",
+      "command_name": "display name editor",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "display name editor",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-duplicate",
+      "command_name": "duplicate",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "0444C204-D8AD-4CC0-8A9A-9F6817C12896",
+        "to": "0444C204-D8AD-4CC0-8A9A-9F6817C12896"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "duplicate record with uuid \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\" to record with uuid \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-exists-record-at",
+      "command_name": "exists record at",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "/tmp/devonthink-mcp-sample.txt",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "exists record at \"/tmp/devonthink-mcp-sample.txt\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-exists-record-with-comment",
+      "command_name": "exists record with comment",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "exists record with comment \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-exists-record-with-content-hash",
+      "command_name": "exists record with content hash",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "exists record with content hash \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-exists-record-with-file",
+      "command_name": "exists record with file",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "exists record with file \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-exists-record-with-path",
+      "command_name": "exists record with path",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "/tmp/devonthink-mcp-sample.txt",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "exists record with path \"/tmp/devonthink-mcp-sample.txt\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-exists-record-with-url",
+      "command_name": "exists record with URL",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "exists record with URL \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-export",
+      "command_name": "export",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+        "to": "https://example.com"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "export record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\" to \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-export-tags-of",
+      "command_name": "export tags of",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "export tags of record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-export-website",
+      "command_name": "export website",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+        "to": "https://example.com"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "export website record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\" to \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-extract-keywords-from",
+      "command_name": "extract keywords from",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "extract keywords from record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-cached-data-for-url",
+      "command_name": "get cached data for URL",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get cached data for URL \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-cell-at",
+      "command_name": "get cell at",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {
+        "column": "mcp test sample",
+        "row": "mcp test sample"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get cell at record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\" column \"mcp test sample\" row \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-concordance-of",
+      "command_name": "get concordance of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get concordance of record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-custom-meta-data",
+      "command_name": "get custom meta data",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "for": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+        "from": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get custom meta data for record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\" from record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-database-with-id",
+      "command_name": "get database with id",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get database with id \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-database-with-uuid",
+      "command_name": "get database with uuid",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get database with uuid \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-embedded-images-of",
+      "command_name": "get embedded images of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get embedded images of \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-embedded-objects-of",
+      "command_name": "get embedded objects of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get embedded objects of \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-embedded-sheets-and-scripts-of",
+      "command_name": "get embedded sheets and scripts of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get embedded sheets and scripts of \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-favicon-of",
+      "command_name": "get favicon of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get favicon of \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-feed-items-of",
+      "command_name": "get feed items of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get feed items of \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-frames-of",
+      "command_name": "get frames of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get frames of \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-items-of-feed",
+      "command_name": "get items of feed",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get items of feed \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-links-of",
+      "command_name": "get links of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get links of \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-metadata-of",
+      "command_name": "get metadata of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get metadata of",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-record-at",
+      "command_name": "get record at",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "/tmp/devonthink-mcp-sample.txt",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get record at \"/tmp/devonthink-mcp-sample.txt\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-record-with-id",
+      "command_name": "get record with id",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get record with id \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-record-with-uuid",
+      "command_name": "get record with uuid",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "x-devonthink-item://5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get record with uuid record with uuid \"x-devonthink-item://5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-rich-text-of",
+      "command_name": "get rich text of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get rich text of \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-text-of",
+      "command_name": "get text of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get text of \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-title-of",
+      "command_name": "get title of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get title of \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-get-versions-of",
+      "command_name": "get versions of",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "get versions of record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-hide-progress-indicator",
+      "command_name": "hide progress indicator",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "hide progress indicator",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-import-attachments-of",
+      "command_name": "import attachments of",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "import attachments of record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-import-path",
+      "command_name": "import path",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "import path \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-import-template",
+      "command_name": "import template",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "import template \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-index-path",
+      "command_name": "index path",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "index path \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-load-workspace",
+      "command_name": "load workspace",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "load workspace \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-log-message",
+      "command_name": "log message",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "log message",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-lookup-records-with-comment",
+      "command_name": "lookup records with comment",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "lookup records with comment \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-lookup-records-with-content-hash",
+      "command_name": "lookup records with content hash",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "lookup records with content hash \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-lookup-records-with-file",
+      "command_name": "lookup records with file",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "lookup records with file \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-lookup-records-with-path",
+      "command_name": "lookup records with path",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "/tmp/devonthink-mcp-sample.txt",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "lookup records with path \"/tmp/devonthink-mcp-sample.txt\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-lookup-records-with-tags",
+      "command_name": "lookup records with tags",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "lookup records with tags \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-lookup-records-with-url",
+      "command_name": "lookup records with URL",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "https://example.com",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "lookup records with URL \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-merge",
+      "command_name": "merge",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "records": "mcp test sample"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "merge records \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-move",
+      "command_name": "move",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "0444C204-D8AD-4CC0-8A9A-9F6817C12896",
+        "to": "0444C204-D8AD-4CC0-8A9A-9F6817C12896"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "move record with uuid \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\" to record with uuid \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-move-into-database",
+      "command_name": "move into database",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "move into database record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-move-to-external-folder",
+      "command_name": "move to external folder",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "move to external folder record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-open-database",
+      "command_name": "open database",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "0444C204-D8AD-4CC0-8A9A-9F6817C12896",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "open database \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-open-tab-for",
+      "command_name": "open tab for",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "open tab for",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-open-window-for",
+      "command_name": "open window for",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "open window for record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-optimize",
+      "command_name": "optimize",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "database": "0444C204-D8AD-4CC0-8A9A-9F6817C12896"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "optimize database with uuid \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-paste-clipboard",
+      "command_name": "paste clipboard",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "paste clipboard",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-perform-smart-rule",
+      "command_name": "perform smart rule",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "perform smart rule",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-refresh",
+      "command_name": "refresh",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "refresh record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-replicate",
+      "command_name": "replicate",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+        "to": "0444C204-D8AD-4CC0-8A9A-9F6817C12896"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "replicate record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\" to record with uuid \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-restore-record-with",
+      "command_name": "restore record with",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "version": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "restore record with version record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-save-version-of",
+      "command_name": "save version of",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "save version of record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-save-workspace",
+      "command_name": "save workspace",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "save workspace \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-search",
+      "command_name": "search",
+      "tier": "canonical",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "search",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-set-cell-at",
+      "command_name": "set cell at",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+      "sample_parameters": {
+        "column": "mcp test sample",
+        "row": "mcp test sample",
+        "to": "mcp test sample"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "set cell at record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\" column \"mcp test sample\" row \"mcp test sample\" to \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-show-progress-indicator",
+      "command_name": "show progress indicator",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "show progress indicator \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-show-search",
+      "command_name": "show search",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "show search",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-start-downloads",
+      "command_name": "start downloads",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "start downloads",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-step-progress-indicator",
+      "command_name": "step progress indicator",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "step progress indicator",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-stop-downloads",
+      "command_name": "stop downloads",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "stop downloads",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-summarize-annotations-of",
+      "command_name": "summarize annotations of",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "records": "mcp test sample",
+        "to": "mcp test sample"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "summarize annotations of records \"mcp test sample\" to \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-summarize-contents-of",
+      "command_name": "summarize contents of",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "records": "mcp test sample",
+        "to": "mcp test sample"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "summarize contents of records \"mcp test sample\" to \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-summarize-mentions-of",
+      "command_name": "summarize mentions of",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "records": "mcp test sample",
+        "to": "mcp test sample"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "summarize mentions of records \"mcp test sample\" to \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-summarize-text",
+      "command_name": "summarize text",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "summarize text \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-synchronize",
+      "command_name": "synchronize",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "synchronize",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-transcribe",
+      "command_name": "transcribe",
+      "tier": "advanced",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "transcribe record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-update",
+      "command_name": "update",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+        "with text": "mcp test sample",
+        "mode": "mcp test sample"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "update record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\" with text \"mcp test sample\" mode \"mcp test sample\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-update-thumbnail",
+      "command_name": "update thumbnail",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "of": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "update thumbnail of record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-verify",
+      "command_name": "verify",
+      "tier": "internal",
+      "suite": "DEVONthink Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "database": "0444C204-D8AD-4CC0-8A9A-9F6817C12896"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "verify database with uuid \"0444C204-D8AD-4CC0-8A9A-9F6817C12896\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-convert-image",
+      "command_name": "convert image",
+      "tier": "advanced",
+      "suite": "OCR Commands Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "convert image record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-ocr",
+      "command_name": "ocr",
+      "tier": "advanced",
+      "suite": "OCR Commands Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "file": "https://example.com"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "ocr file \"https://example.com\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-imprinter-configuration-names",
+      "command_name": "imprinter configuration names",
+      "tier": "advanced",
+      "suite": "Imprint Commands Suite",
+      "sample_direct": null,
+      "sample_parameters": {},
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "imprinter configuration names",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-imprint-configuration",
+      "command_name": "imprint configuration",
+      "tier": "advanced",
+      "suite": "Imprint Commands Suite",
+      "sample_direct": "mcp test sample",
+      "sample_parameters": {
+        "to": "180AA7E9-CBB5-4DEF-8F06-7DEDD2809E5B"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "imprint configuration \"mcp test sample\" to record with uuid \"180AA7E9-CBB5-4DEF-8F06-7DEDD2809E5B\"",
+      "malformed_patterns": []
+    },
+    {
+      "tool_name": "devonthink-imprint",
+      "command_name": "imprint",
+      "tier": "advanced",
+      "suite": "Imprint Commands Suite",
+      "sample_direct": null,
+      "sample_parameters": {
+        "record": "5038E0B0-2134-4CDA-B443-6558CE283BCC",
+        "font": "mcp test sample",
+        "position": 1,
+        "size": 1,
+        "text": "mcp test sample"
+      },
+      "description_flags": [],
+      "build_ok": true,
+      "applescript": "imprint record with uuid \"5038E0B0-2134-4CDA-B443-6558CE283BCC\" font \"mcp test sample\" position 1 size 1 text \"mcp test sample\"",
+      "malformed_patterns": []
+    }
+  ]
+}

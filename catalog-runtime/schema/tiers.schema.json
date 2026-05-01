@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tin-canmcp.dev/schema/tiers.schema.json",
+  "title": "tiers.json",
+  "type": "object",
+  "minProperties": 1,
+  "additionalProperties": {
+    "type": "object",
+    "required": ["description", "default_visible"],
+    "properties": {
+      "description": { "type": "string", "minLength": 1 },
+      "default_visible": { "type": "boolean" }
+    },
+    "additionalProperties": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tin-canmcp.dev/schema/aliases.schema.json",
+  "title": "aliases.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["alias", "canonical_tool"],
+    "properties": {
+      "alias": { "type": "string", "minLength": 1 },
+      "canonical_tool": { "type": "string", "minLength": 1 }
+    },
+    "additionalProperties": false
+  }
+}

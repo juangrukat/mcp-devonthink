@@ -1,0 +1,9 @@
+# Add DEVONthink MCP to Claude Code (stdio)
+
+claude mcp add --transport stdio devonthink -- \
+  /ABS/PATH/TO/REPO/.venv/bin/python \
+  /ABS/PATH/TO/REPO/main.py \
+  --transport=stdio
+
+# Optional: if you want lower context/tool footprint
+# set DEVONTHINK_TOOL_PROFILE=minimal or canonical in your Claude MCP env setup.

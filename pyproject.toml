@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "live_devonthink: requires a running DEVONthink instance and Apple Events access",
+    "benchmark_live: live DEVONthink performance regression checks",
+]
+timeout = 60
+
+[project]
+name = "devonthink-mcp"
+version = "0.1.0"
+description = "MCP server for DEVONthink automation on macOS."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "httpx>=0.27",
+    "pydantic-settings>=2.6",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest-benchmark>=5.1.0",
+    "pytest-timeout>=2.3.1",
+]
+
+[project.scripts]
+devonthink-mcp = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]

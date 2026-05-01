@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tin-canmcp.dev/schema/overlaps.schema.json",
+  "title": "overlaps.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["family", "canonical_tool", "members", "note"],
+    "properties": {
+      "family": { "type": "string", "minLength": 1 },
+      "canonical_tool": { "type": "string", "minLength": 1 },
+      "members": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+      "note": { "type": "string", "minLength": 1 }
+    },
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "canonical": {
+    "description": "Preferred default exposure surface for first-pass tool selection.",
+    "default_visible": true
+  },
+  "advanced": {
+    "description": "Useful tools that should be activated only when the query is specific enough.",
+    "default_visible": false
+  },
+  "internal": {
+    "description": "Rare or edge-case tools that are normally hidden.",
+    "default_visible": false
+  }
+}

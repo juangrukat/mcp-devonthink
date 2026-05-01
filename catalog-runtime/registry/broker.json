@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "strategy": {
+    "default_active_groups": [
+      "devonthink.native"
+    ],
+    "default_active_tiers": [
+      "canonical"
+    ],
+    "max_tools_per_activation": 24,
+    "escalation_order": [
+      "canonical",
+      "advanced",
+      "internal"
+    ]
+  },
+  "inventory": {
+    "unique_tool_names": 134,
+    "group_count": 1,
+    "alias_count": 138,
+    "source_variant_count": 0
+  }
+}

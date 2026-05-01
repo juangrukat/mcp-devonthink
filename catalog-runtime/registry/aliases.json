@@ -1,0 +1,698 @@
+[
+  {
+    "alias": "add-custom-meta-data",
+    "canonical_tool": "devonthink-add-custom-meta-data"
+  },
+  {
+    "alias": "add-download",
+    "canonical_tool": "devonthink-add-download"
+  },
+  {
+    "alias": "add-reading-list",
+    "canonical_tool": "devonthink-add-reading-list"
+  },
+  {
+    "alias": "add-reminder",
+    "canonical_tool": "devonthink-add-reminder"
+  },
+  {
+    "alias": "add-row",
+    "canonical_tool": "devonthink-add-row"
+  },
+  {
+    "alias": "bold",
+    "canonical_tool": "devonthink-bold"
+  },
+  {
+    "alias": "check-file-integrity-of",
+    "canonical_tool": "devonthink-check-file-integrity-of"
+  },
+  {
+    "alias": "classify",
+    "canonical_tool": "devonthink-classify"
+  },
+  {
+    "alias": "close",
+    "canonical_tool": "devonthink-close"
+  },
+  {
+    "alias": "compare",
+    "canonical_tool": "devonthink-compare"
+  },
+  {
+    "alias": "compare-link-snapshots",
+    "canonical_tool": "devonthink-link-compare-snapshots"
+  },
+  {
+    "alias": "compress",
+    "canonical_tool": "devonthink-compress"
+  },
+  {
+    "alias": "convert",
+    "canonical_tool": "devonthink-convert"
+  },
+  {
+    "alias": "convert-feed-to-html",
+    "canonical_tool": "devonthink-convert-feed-to-html"
+  },
+  {
+    "alias": "convert-image",
+    "canonical_tool": "devonthink-convert-image"
+  },
+  {
+    "alias": "count",
+    "canonical_tool": "devonthink-count"
+  },
+  {
+    "alias": "create-database",
+    "canonical_tool": "devonthink-create-database"
+  },
+  {
+    "alias": "create-formatted-note-from",
+    "canonical_tool": "devonthink-create-formatted-note-from"
+  },
+  {
+    "alias": "create-location",
+    "canonical_tool": "devonthink-create-location"
+  },
+  {
+    "alias": "create-markdown-from",
+    "canonical_tool": "devonthink-create-markdown-from"
+  },
+  {
+    "alias": "create-pdf-document-from",
+    "canonical_tool": "devonthink-create-pdf-document-from"
+  },
+  {
+    "alias": "create-record",
+    "canonical_tool": "devonthink-create-record"
+  },
+  {
+    "alias": "create-record-with",
+    "canonical_tool": "devonthink-create-record-with"
+  },
+  {
+    "alias": "create-thumbnail",
+    "canonical_tool": "devonthink-create-thumbnail"
+  },
+  {
+    "alias": "create-web-document-from",
+    "canonical_tool": "devonthink-create-web-document-from"
+  },
+  {
+    "alias": "delete",
+    "canonical_tool": "devonthink-delete"
+  },
+  {
+    "alias": "delete-row-at",
+    "canonical_tool": "devonthink-delete-row-at"
+  },
+  {
+    "alias": "delete-thumbnail",
+    "canonical_tool": "devonthink-delete-thumbnail"
+  },
+  {
+    "alias": "delete-workspace",
+    "canonical_tool": "devonthink-delete-workspace"
+  },
+  {
+    "alias": "devonthink-add-record",
+    "canonical_tool": "devonthink-create-record"
+  },
+  {
+    "alias": "devonthink-find-records",
+    "canonical_tool": "devonthink-search-records"
+  },
+  {
+    "alias": "devonthink-get-database",
+    "canonical_tool": "devonthink-get-database-by-uuid"
+  },
+  {
+    "alias": "devonthink-get-record",
+    "canonical_tool": "devonthink-get-record-by-uuid"
+  },
+  {
+    "alias": "devonthink-link-audit-folder",
+    "canonical_tool": "devonthink-link-audit-folder"
+  },
+  {
+    "alias": "devonthink-link-audit-record",
+    "canonical_tool": "devonthink-link-audit-record"
+  },
+  {
+    "alias": "devonthink-link-build-hub",
+    "canonical_tool": "devonthink-link-build-hub"
+  },
+  {
+    "alias": "devonthink-link-check-reciprocal",
+    "canonical_tool": "devonthink-link-check-reciprocal"
+  },
+  {
+    "alias": "devonthink-link-compare-snapshots",
+    "canonical_tool": "devonthink-link-compare-snapshots"
+  },
+  {
+    "alias": "devonthink-link-detect-bridges",
+    "canonical_tool": "devonthink-link-detect-bridges"
+  },
+  {
+    "alias": "devonthink-link-enrich-metadata",
+    "canonical_tool": "devonthink-link-enrich-metadata"
+  },
+  {
+    "alias": "devonthink-link-find-orphans",
+    "canonical_tool": "devonthink-link-find-orphans"
+  },
+  {
+    "alias": "devonthink-link-maintenance-pass",
+    "canonical_tool": "devonthink-link-maintenance-pass"
+  },
+  {
+    "alias": "devonthink-link-map-neighborhood",
+    "canonical_tool": "devonthink-link-map-neighborhood"
+  },
+  {
+    "alias": "devonthink-link-prune-snapshots",
+    "canonical_tool": "devonthink-link-prune-snapshots"
+  },
+  {
+    "alias": "devonthink-link-repair-links",
+    "canonical_tool": "devonthink-link-repair-links"
+  },
+  {
+    "alias": "devonthink-link-resolve",
+    "canonical_tool": "devonthink-link-resolve"
+  },
+  {
+    "alias": "devonthink-link-score",
+    "canonical_tool": "devonthink-link-score"
+  },
+  {
+    "alias": "devonthink-link-suggest-related",
+    "canonical_tool": "devonthink-link-suggest-related"
+  },
+  {
+    "alias": "devonthink-link-traverse-folder",
+    "canonical_tool": "devonthink-link-traverse-folder"
+  },
+  {
+    "alias": "display-authentication-dialog",
+    "canonical_tool": "devonthink-display-authentication-dialog"
+  },
+  {
+    "alias": "display-date-editor",
+    "canonical_tool": "devonthink-display-date-editor"
+  },
+  {
+    "alias": "display-group-selector",
+    "canonical_tool": "devonthink-display-group-selector"
+  },
+  {
+    "alias": "display-name-editor",
+    "canonical_tool": "devonthink-display-name-editor"
+  },
+  {
+    "alias": "do-javascript",
+    "canonical_tool": "devonthink-do-javascript"
+  },
+  {
+    "alias": "download-json-from",
+    "canonical_tool": "devonthink-download-json-from"
+  },
+  {
+    "alias": "download-markup-from",
+    "canonical_tool": "devonthink-download-markup-from"
+  },
+  {
+    "alias": "download-url",
+    "canonical_tool": "devonthink-download-url"
+  },
+  {
+    "alias": "duplicate",
+    "canonical_tool": "devonthink-duplicate"
+  },
+  {
+    "alias": "exists",
+    "canonical_tool": "devonthink-exists"
+  },
+  {
+    "alias": "exists-record-at",
+    "canonical_tool": "devonthink-exists-record-at"
+  },
+  {
+    "alias": "exists-record-with-comment",
+    "canonical_tool": "devonthink-exists-record-with-comment"
+  },
+  {
+    "alias": "exists-record-with-content-hash",
+    "canonical_tool": "devonthink-exists-record-with-content-hash"
+  },
+  {
+    "alias": "exists-record-with-file",
+    "canonical_tool": "devonthink-exists-record-with-file"
+  },
+  {
+    "alias": "exists-record-with-path",
+    "canonical_tool": "devonthink-exists-record-with-path"
+  },
+  {
+    "alias": "exists-record-with-url",
+    "canonical_tool": "devonthink-exists-record-with-url"
+  },
+  {
+    "alias": "export",
+    "canonical_tool": "devonthink-export"
+  },
+  {
+    "alias": "export-tags-of",
+    "canonical_tool": "devonthink-export-tags-of"
+  },
+  {
+    "alias": "export-website",
+    "canonical_tool": "devonthink-export-website"
+  },
+  {
+    "alias": "extract-keywords-from",
+    "canonical_tool": "devonthink-extract-keywords-from"
+  },
+  {
+    "alias": "get-cached-data-for-url",
+    "canonical_tool": "devonthink-get-cached-data-for-url"
+  },
+  {
+    "alias": "get-cell-at",
+    "canonical_tool": "devonthink-get-cell-at"
+  },
+  {
+    "alias": "get-concordance-of",
+    "canonical_tool": "devonthink-get-concordance-of"
+  },
+  {
+    "alias": "get-custom-meta-data",
+    "canonical_tool": "devonthink-get-custom-meta-data"
+  },
+  {
+    "alias": "get-database-by-uuid",
+    "canonical_tool": "devonthink-get-database-by-uuid"
+  },
+  {
+    "alias": "get-database-with-id",
+    "canonical_tool": "devonthink-get-database-with-id"
+  },
+  {
+    "alias": "get-database-with-uuid",
+    "canonical_tool": "devonthink-get-database-with-uuid"
+  },
+  {
+    "alias": "get-embedded-images-of",
+    "canonical_tool": "devonthink-get-embedded-images-of"
+  },
+  {
+    "alias": "get-embedded-objects-of",
+    "canonical_tool": "devonthink-get-embedded-objects-of"
+  },
+  {
+    "alias": "get-embedded-sheets-and-scripts-of",
+    "canonical_tool": "devonthink-get-embedded-sheets-and-scripts-of"
+  },
+  {
+    "alias": "get-favicon-of",
+    "canonical_tool": "devonthink-get-favicon-of"
+  },
+  {
+    "alias": "get-feed-items-of",
+    "canonical_tool": "devonthink-get-feed-items-of"
+  },
+  {
+    "alias": "get-frames-of",
+    "canonical_tool": "devonthink-get-frames-of"
+  },
+  {
+    "alias": "get-items-of-feed",
+    "canonical_tool": "devonthink-get-items-of-feed"
+  },
+  {
+    "alias": "get-links-of",
+    "canonical_tool": "devonthink-get-links-of"
+  },
+  {
+    "alias": "get-metadata-of",
+    "canonical_tool": "devonthink-get-metadata-of"
+  },
+  {
+    "alias": "get-record-at",
+    "canonical_tool": "devonthink-get-record-at"
+  },
+  {
+    "alias": "get-record-by-uuid",
+    "canonical_tool": "devonthink-get-record-by-uuid"
+  },
+  {
+    "alias": "get-record-with-id",
+    "canonical_tool": "devonthink-get-record-with-id"
+  },
+  {
+    "alias": "get-record-with-uuid",
+    "canonical_tool": "devonthink-get-record-with-uuid"
+  },
+  {
+    "alias": "get-rich-text-of",
+    "canonical_tool": "devonthink-get-rich-text-of"
+  },
+  {
+    "alias": "get-text-of",
+    "canonical_tool": "devonthink-get-text-of"
+  },
+  {
+    "alias": "get-title-of",
+    "canonical_tool": "devonthink-get-title-of"
+  },
+  {
+    "alias": "get-versions-of",
+    "canonical_tool": "devonthink-get-versions-of"
+  },
+  {
+    "alias": "hide-progress-indicator",
+    "canonical_tool": "devonthink-hide-progress-indicator"
+  },
+  {
+    "alias": "import-attachments-of",
+    "canonical_tool": "devonthink-import-attachments-of"
+  },
+  {
+    "alias": "import-path",
+    "canonical_tool": "devonthink-import-path"
+  },
+  {
+    "alias": "import-template",
+    "canonical_tool": "devonthink-import-template"
+  },
+  {
+    "alias": "imprint",
+    "canonical_tool": "devonthink-imprint"
+  },
+  {
+    "alias": "imprint-configuration",
+    "canonical_tool": "devonthink-imprint-configuration"
+  },
+  {
+    "alias": "imprinter-configuration-names",
+    "canonical_tool": "devonthink-imprinter-configuration-names"
+  },
+  {
+    "alias": "index-path",
+    "canonical_tool": "devonthink-index-path"
+  },
+  {
+    "alias": "italicize",
+    "canonical_tool": "devonthink-italicize"
+  },
+  {
+    "alias": "link-audit-folder",
+    "canonical_tool": "devonthink-link-audit-folder"
+  },
+  {
+    "alias": "link-audit-record",
+    "canonical_tool": "devonthink-link-audit-record"
+  },
+  {
+    "alias": "link-build-hub",
+    "canonical_tool": "devonthink-link-build-hub"
+  },
+  {
+    "alias": "link-check-reciprocal",
+    "canonical_tool": "devonthink-link-check-reciprocal"
+  },
+  {
+    "alias": "link-compare-snapshots",
+    "canonical_tool": "devonthink-link-compare-snapshots"
+  },
+  {
+    "alias": "link-detect-bridges",
+    "canonical_tool": "devonthink-link-detect-bridges"
+  },
+  {
+    "alias": "link-enrich-metadata",
+    "canonical_tool": "devonthink-link-enrich-metadata"
+  },
+  {
+    "alias": "link-find-orphans",
+    "canonical_tool": "devonthink-link-find-orphans"
+  },
+  {
+    "alias": "link-maintenance-pass",
+    "canonical_tool": "devonthink-link-maintenance-pass"
+  },
+  {
+    "alias": "link-map-neighborhood",
+    "canonical_tool": "devonthink-link-map-neighborhood"
+  },
+  {
+    "alias": "link-prune-snapshots",
+    "canonical_tool": "devonthink-link-prune-snapshots"
+  },
+  {
+    "alias": "link-repair-links",
+    "canonical_tool": "devonthink-link-repair-links"
+  },
+  {
+    "alias": "link-resolve",
+    "canonical_tool": "devonthink-link-resolve"
+  },
+  {
+    "alias": "link-score",
+    "canonical_tool": "devonthink-link-score"
+  },
+  {
+    "alias": "link-suggest-related",
+    "canonical_tool": "devonthink-link-suggest-related"
+  },
+  {
+    "alias": "link-traverse-folder",
+    "canonical_tool": "devonthink-link-traverse-folder"
+  },
+  {
+    "alias": "load-workspace",
+    "canonical_tool": "devonthink-load-workspace"
+  },
+  {
+    "alias": "log-message",
+    "canonical_tool": "devonthink-log-message"
+  },
+  {
+    "alias": "lookup-records-with-comment",
+    "canonical_tool": "devonthink-lookup-records-with-comment"
+  },
+  {
+    "alias": "lookup-records-with-content-hash",
+    "canonical_tool": "devonthink-lookup-records-with-content-hash"
+  },
+  {
+    "alias": "lookup-records-with-file",
+    "canonical_tool": "devonthink-lookup-records-with-file"
+  },
+  {
+    "alias": "lookup-records-with-path",
+    "canonical_tool": "devonthink-lookup-records-with-path"
+  },
+  {
+    "alias": "lookup-records-with-tags",
+    "canonical_tool": "devonthink-lookup-records-with-tags"
+  },
+  {
+    "alias": "lookup-records-with-url",
+    "canonical_tool": "devonthink-lookup-records-with-url"
+  },
+  {
+    "alias": "make",
+    "canonical_tool": "devonthink-make"
+  },
+  {
+    "alias": "merge",
+    "canonical_tool": "devonthink-merge"
+  },
+  {
+    "alias": "move",
+    "canonical_tool": "devonthink-move"
+  },
+  {
+    "alias": "move-into-database",
+    "canonical_tool": "devonthink-move-into-database"
+  },
+  {
+    "alias": "move-to-external-folder",
+    "canonical_tool": "devonthink-move-to-external-folder"
+  },
+  {
+    "alias": "ocr",
+    "canonical_tool": "devonthink-ocr"
+  },
+  {
+    "alias": "open-database",
+    "canonical_tool": "devonthink-open-database"
+  },
+  {
+    "alias": "open-tab-for",
+    "canonical_tool": "devonthink-open-tab-for"
+  },
+  {
+    "alias": "open-window-for",
+    "canonical_tool": "devonthink-open-window-for"
+  },
+  {
+    "alias": "optimize",
+    "canonical_tool": "devonthink-optimize"
+  },
+  {
+    "alias": "paste-clipboard",
+    "canonical_tool": "devonthink-paste-clipboard"
+  },
+  {
+    "alias": "perform-smart-rule",
+    "canonical_tool": "devonthink-perform-smart-rule"
+  },
+  {
+    "alias": "plain",
+    "canonical_tool": "devonthink-plain"
+  },
+  {
+    "alias": "prune-snapshots",
+    "canonical_tool": "devonthink-link-prune-snapshots"
+  },
+  {
+    "alias": "quit",
+    "canonical_tool": "devonthink-quit"
+  },
+  {
+    "alias": "reformat",
+    "canonical_tool": "devonthink-reformat"
+  },
+  {
+    "alias": "refresh",
+    "canonical_tool": "devonthink-refresh"
+  },
+  {
+    "alias": "replicate",
+    "canonical_tool": "devonthink-replicate"
+  },
+  {
+    "alias": "restore-record-with",
+    "canonical_tool": "devonthink-restore-record-with"
+  },
+  {
+    "alias": "save",
+    "canonical_tool": "devonthink-save"
+  },
+  {
+    "alias": "save-version-of",
+    "canonical_tool": "devonthink-save-version-of"
+  },
+  {
+    "alias": "save-workspace",
+    "canonical_tool": "devonthink-save-workspace"
+  },
+  {
+    "alias": "scroll-to-visible",
+    "canonical_tool": "devonthink-scroll-to-visible"
+  },
+  {
+    "alias": "search",
+    "canonical_tool": "devonthink-search"
+  },
+  {
+    "alias": "search-records",
+    "canonical_tool": "devonthink-search-records"
+  },
+  {
+    "alias": "set-cell-at",
+    "canonical_tool": "devonthink-set-cell-at"
+  },
+  {
+    "alias": "show-progress-indicator",
+    "canonical_tool": "devonthink-show-progress-indicator"
+  },
+  {
+    "alias": "show-search",
+    "canonical_tool": "devonthink-show-search"
+  },
+  {
+    "alias": "snapshot-diff",
+    "canonical_tool": "devonthink-link-compare-snapshots"
+  },
+  {
+    "alias": "snapshot-retention",
+    "canonical_tool": "devonthink-link-prune-snapshots"
+  },
+  {
+    "alias": "start-downloads",
+    "canonical_tool": "devonthink-start-downloads"
+  },
+  {
+    "alias": "step-progress-indicator",
+    "canonical_tool": "devonthink-step-progress-indicator"
+  },
+  {
+    "alias": "stop-downloads",
+    "canonical_tool": "devonthink-stop-downloads"
+  },
+  {
+    "alias": "strike",
+    "canonical_tool": "devonthink-strike"
+  },
+  {
+    "alias": "summarize-annotations-of",
+    "canonical_tool": "devonthink-summarize-annotations-of"
+  },
+  {
+    "alias": "summarize-contents-of",
+    "canonical_tool": "devonthink-summarize-contents-of"
+  },
+  {
+    "alias": "summarize-mentions-of",
+    "canonical_tool": "devonthink-summarize-mentions-of"
+  },
+  {
+    "alias": "summarize-text",
+    "canonical_tool": "devonthink-summarize-text"
+  },
+  {
+    "alias": "synchronize",
+    "canonical_tool": "devonthink-synchronize"
+  },
+  {
+    "alias": "transcribe",
+    "canonical_tool": "devonthink-transcribe"
+  },
+  {
+    "alias": "unbold",
+    "canonical_tool": "devonthink-unbold"
+  },
+  {
+    "alias": "underline",
+    "canonical_tool": "devonthink-underline"
+  },
+  {
+    "alias": "unitalicize",
+    "canonical_tool": "devonthink-unitalicize"
+  },
+  {
+    "alias": "unstrike",
+    "canonical_tool": "devonthink-unstrike"
+  },
+  {
+    "alias": "ununderline",
+    "canonical_tool": "devonthink-ununderline"
+  },
+  {
+    "alias": "update",
+    "canonical_tool": "devonthink-update"
+  },
+  {
+    "alias": "update-thumbnail",
+    "canonical_tool": "devonthink-update-thumbnail"
+  },
+  {
+    "alias": "verify",
+    "canonical_tool": "devonthink-verify"
+  }
+]

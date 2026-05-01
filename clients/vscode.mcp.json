@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "devonthink": {
+      "type": "stdio",
+      "command": "/ABS/PATH/TO/REPO/.venv/bin/python",
+      "args": [
+        "/ABS/PATH/TO/REPO/main.py",
+        "--transport=stdio"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1",
+        "DEVONTHINK_TOOL_PROFILE": "canonical"
+      }
+    }
+  }
+}
